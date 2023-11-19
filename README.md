@@ -1,2 +1,2 @@
-# GPS-receiver
-DIY multichannel GPS receiver with dedicated frontend an DSP core packed inside iCE40HX8K and STM32G441
+# GPS-receiver (work in progress)
+Multi-channel GPS receiver for L1 carrier with dedicated high-frequency frontend, processing within DSP routines and user interface on a personal computer.
