@@ -1,0 +1,97 @@
+* ******************************************************************************
+
+* iCEcube Packer
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec  9 2020 17:31:51
+
+* File Generated:     Nov 13 2023 15:43:13
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Command Line: C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\packer.exe  C:\lscc\iCEcube2.2020.12\sbt_backend\devices\ICE40P03.dev  C:/Users/Aljaz/OneDrive - Univerza v Ljubljani/PROJEKTI/GPS sprejemnik/FPGA/iCE40LP384-SG32/iCE40LP384_demo_project/iCE40LP384_blink/iCE40LP384_blink_Implmnt\sbt\netlist\oadb-main  --package  QN32  --outdir  C:/Users/Aljaz/OneDrive - Univerza v Ljubljani/PROJEKTI/GPS sprejemnik/FPGA/iCE40LP384-SG32/iCE40LP384_demo_project/iCE40LP384_blink/iCE40LP384_blink_Implmnt\sbt\outputs\packer  --translator  C:\lscc\iCEcube2.2020.12\sbt_backend\bin\sdc_translator.tcl  --src_sdc_file  C:/Users/Aljaz/OneDrive - Univerza v Ljubljani/PROJEKTI/GPS sprejemnik/FPGA/iCE40LP384-SG32/iCE40LP384_demo_project/iCE40LP384_blink/iCE40LP384_blink_Implmnt\sbt\outputs\placer\main_pl.sdc  --dst_sdc_file  C:/Users/Aljaz/OneDrive - Univerza v Ljubljani/PROJEKTI/GPS sprejemnik/FPGA/iCE40LP384-SG32/iCE40LP384_demo_project/iCE40LP384_blink/iCE40LP384_blink_Implmnt\sbt\outputs\packer\main_pk.sdc  --devicename  iCE40LP384  
+
+***** Device Info *****
+Chip: iCE40LP384
+Package: QN32
+Size: 6 X 8
+
+***** Design Utilization Info *****
+Design: main
+Used Logic Cell: 53/384
+Used Logic Tile: 8/48
+Used IO Cell:    4/56
+Used Bram Cell For iCE40: 0/0
+Used PLL For iCE40: 0/0
+Ram Cascading Used: 0
+Lut Cascading Used: 1
+
+***** Clock Info *****
+Clock Domain: clk_c_g
+Clock Source: clk 
+Clock Driver: clk_ibuf_gb_io (ICE_GB_IO)
+Driver Position: (0, 4, 1)
+Fanout to FF: 29
+Fanout to Tile: 6
+
+
+***** Placement Info *****
+Logic cell utilization per tile
+    . . . . + . . . 
+   ----------------
+ 9|                 
+ 8|   0 0 0 0 0 0   
+ 7|   0 0 0 0 0 0   
+ 6|   0 0 0 0 0 0   
+ 5|   0 0 0 0 0 0   
+ 4|   0 6 0 0 0 0   
+ 3|   8 6 0 0 0 0   
+ 2|   8 8 0 0 0 0   
+ 1|   8 8 1 0 0 0   
+ 0|                 
+
+Maximum number of Logic cells per logic tile: 8
+Average number of Logic cells per logic tile: 6.63
+
+***** Input Pin Density Info *****
+Number of input nets per logic tile
+     .  .  .  .  +  .  .  . 
+   ------------------------
+ 9|                         
+ 8|     0  0  0  0  0  0    
+ 7|     0  0  0  0  0  0    
+ 6|     0  0  0  0  0  0    
+ 5|     0  0  0  0  0  0    
+ 4|     0 10  0  0  0  0    
+ 3|    15  8  0  0  0  0    
+ 2|    16  8  0  0  0  0    
+ 1|    16  9  2  0  0  0    
+ 0|                         
+
+Maximum number of input nets per logic tile: 16
+Average number of input nets per logic tile: 10.50
+
+Number of input pins per logic tile
+     .  .  .  .  +  .  .  . 
+   ------------------------
+ 9|                         
+ 8|     0  0  0  0  0  0    
+ 7|     0  0  0  0  0  0    
+ 6|     0  0  0  0  0  0    
+ 5|     0  0  0  0  0  0    
+ 4|     0 23  0  0  0  0    
+ 3|    15 10  0  0  0  0    
+ 2|    16  8  0  0  0  0    
+ 1|    16  9  2  0  0  0    
+ 0|                         
+
+Maximum number of input pins per logic tile: 23
+Average number of input pins per logic tile: 12.38
+
+***** Run Time Info *****
+Run Time:  1

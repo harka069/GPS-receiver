@@ -1,0 +1,2 @@
+@W: CG921 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\main.v":12:5:12:8|LED1 is already declared in this scope.
+

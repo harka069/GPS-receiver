@@ -1,0 +1,2 @@
+@W: FX1039 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40lp384-sg32\ice40lp384_demo_project\main.v":16:0:16:5|User-specified initial value defined for instance clk_div[24:0] is being ignored. 
+@W: MT420 |Found inferred clock main|clk with period 10.04ns. Please declare a user-defined clock on object "p:clk"

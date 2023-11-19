@@ -1,0 +1,5 @@
+Selecting top level module main
+@N: CG364 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\DFF.v":1:7:1:9|Synthesizing module DFF in library work.
+
+@N: CG364 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\main.v":1:7:1:10|Synthesizing module main in library work.
+
