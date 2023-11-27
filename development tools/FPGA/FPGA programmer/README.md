@@ -12,4 +12,4 @@ The layout of the trough-hole components is shown in the figure below (view from
 ![THT_placement](component_placement_THT_Lattice_LSO_programmer.png?raw=true "THT components placement")
 
 ## Programming
-The connection to the PC takes place via the USB bus (USB-B connector). Programmer works with Diamond Programmer 3.1 or later. Before the first use, it is necessary to configure the FTDI chip: Use [FT_PROG](https://ftdichip.com/utilities/#ft_prog) and the configuration file [HW-USBN-2B.xml](HW-USBN-2B.xml). The configuration is stored in the EEPROM memory 93LC56, and loaded to FT2232H automatically on boot.
+The connection to the PC takes place via the USB bus (USB-B connector). Programmer works with Diamond Programmer 3.1 or later. Before the first use, it is necessary to configure the FTDI chip: Use [FT_PROG](https://ftdichip.com/utilities/#ft_prog) and the configuration file [HW-USBN-2B.xml](HW-USBN-2B.xml). The configuration is stored in the EEPROM memory 93LC56, and loaded to FT2232H automatically on boot. This should be done only once.

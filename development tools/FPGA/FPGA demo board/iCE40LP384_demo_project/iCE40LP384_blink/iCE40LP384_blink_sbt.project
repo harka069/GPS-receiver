@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=iCE40LP384_blink
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../main.v=work,../DFF.v
+ProjectVFiles=../main.v=work
 ProjectCFiles=
 CurImplementation=iCE40LP384_blink_Implmnt
 Implementations=iCE40LP384_blink_Implmnt

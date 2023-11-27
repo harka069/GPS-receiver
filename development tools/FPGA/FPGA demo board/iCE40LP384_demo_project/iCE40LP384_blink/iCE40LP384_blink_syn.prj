@@ -3,7 +3,6 @@
 #project files
 
 add_file -verilog -lib work "../main.v" 
-add_file -verilog -lib work "../DFF.v" 
 #implementation: "iCE40LP384_blink_Implmnt"
 impl -add iCE40LP384_blink_Implmnt -type fpga
 

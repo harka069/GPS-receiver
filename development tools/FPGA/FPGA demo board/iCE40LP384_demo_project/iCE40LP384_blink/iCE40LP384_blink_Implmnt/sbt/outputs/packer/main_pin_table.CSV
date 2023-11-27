@@ -6,7 +6,7 @@
 
 * Build Date:         Dec  9 2020 17:31:51
 
-* File Generated:     Nov 13 2023 15:43:12
+* File Generated:     Nov 27 2023 20:23:31
 
 * Purpose:            Detailed IO and package pin info
 
@@ -19,13 +19,13 @@ Package, QN32
 
 Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, Pull Up, IO Function, IO Bank, 
 ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
-1, PIO, not used, , , , , , leftBank
-2, PIO, not used, , , , , , leftBank
+1, PIO, LED2, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+2, PIO, LED1, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
 3, GND, not used, , , , , , UnknownBank
 4, VCCIO_3, not used, , , , , , leftBank
-5, PIO, LED1, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
-6, PIO_GBIN, LED2, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
-7, PIO, BUTTON, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+5, PIO, BTN1, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+6, PIO_GBIN, not used, , , , , , leftBank
+7, PIO, not used, , , , , , leftBank
 8, PIO_GBIN, clk, Input, glb Buff, SB_LVCMOS, No Pull Up, Simple Input, leftBank
 9, VCCIO_2, not used, , , , , , bottomBank
 10, CRESET_B, not used, , , , , , bottomBank
@@ -50,5 +50,5 @@ Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, P
 29, PIO_GBIN, not used, , , , , , topBank
 30, PIO_GBIN, not used, , , , , , topBank
 31, PIO, not used, , , , , , topBank
-32, PIO, not used, , , , , , topBank
-Total Number of Used Pins, 4
+32, PIO, LED3, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+Total Number of Used Pins, 5

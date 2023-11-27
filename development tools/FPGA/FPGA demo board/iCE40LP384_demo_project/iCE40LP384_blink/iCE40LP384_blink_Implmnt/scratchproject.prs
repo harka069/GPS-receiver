@@ -4,7 +4,6 @@
 
 #project files
 add_file -verilog "C:/Users/Aljaz/OneDrive - Univerza v Ljubljani/PROJEKTI/GPS sprejemnik/FPGA/iCE40LP384-SG32/iCE40LP384_demo_project/main.v"
-add_file -verilog "C:/Users/Aljaz/OneDrive - Univerza v Ljubljani/PROJEKTI/GPS sprejemnik/FPGA/iCE40LP384-SG32/iCE40LP384_demo_project/DFF.v"
 
 
 

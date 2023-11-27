@@ -1,4 +1,0 @@
-[VIC]
-D2.g0_0Z0Z_1_cascade_=ltout:in0
-Q0i_0_cascade_=ltout:in2
-clk_div_RNIK8D95Z0Z_19_cascade_=ltout:in0

@@ -1,12 +1,12 @@
-@P:  Worst Slack : -1.772
-@P:  main|clk - Estimated Frequency : 84.7 MHz
-@P:  main|clk - Requested Frequency : 99.6 MHz
-@P:  main|clk - Estimated Period : 11.812
-@P:  main|clk - Requested Period : 10.040
-@P:  main|clk - Slack : -1.772
+@P:  Worst Slack : -1.368
+@P:  main|clk - Estimated Frequency : 109.6 MHz
+@P:  main|clk - Requested Frequency : 129.0 MHz
+@P:  main|clk - Estimated Period : 9.123
+@P:  main|clk - Requested Period : 7.754
+@P:  main|clk - Slack : -1.368
 @P: main Part : ice40lp384qn32
-@P: main I/O primitives : 4
+@P: main I/O primitives : 5
 @P: main I/O Register bits : 0
-@P: main Register bits (Non I/O) : 29 (7%)
-@P: main Total Luts : 32 (8%)
-@P:  CPU Time : 0h:00m:01s
+@P: main Register bits (Non I/O) : 25 (6%)
+@P: main Total Luts : 25 (6%)
+@P:  CPU Time : 0h:00m:00s

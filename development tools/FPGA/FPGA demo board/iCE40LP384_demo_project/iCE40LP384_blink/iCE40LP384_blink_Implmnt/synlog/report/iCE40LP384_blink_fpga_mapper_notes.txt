@@ -1,11 +1,8 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
 @N: MT206 |Auto Constrain mode is enabled
-@N: BN362 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40lp384-sg32\ice40lp384_demo_project\dff.v":2:4:2:9|Removing sequential instance D2.Q (in view: work.main(verilog)) because it does not drive other instances.
-@N: BN362 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40lp384-sg32\ice40lp384_demo_project\dff.v":2:4:2:9|Removing sequential instance D1.Q (in view: work.main(verilog)) because it does not drive other instances.
+@N: MO231 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40lp384-sg32\ice40lp384_demo_project\main.v":16:0:16:5|Found counter in view:work.main(verilog) instance clk_div[24:0] 
 @N: FX1016 :"c:\users\aljaz\onedrive - univerza v ljubljani\projekti\gps sprejemnik\fpga\ice40lp384-sg32\ice40lp384_demo_project\main.v":2:10:2:12|SB_GB_IO inserted on the port clk.
-@N: MT611 :|Automatically generated clock main|clk_div_derived_clock[19] is not used and is being removed
-@N: MT611 :|Automatically generated clock main|BUTTON_D_inferred_clock is not used and is being removed
 @N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
 @N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
 @N: FX1056 |Writing EDF file: C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\iCE40LP384_blink\iCE40LP384_blink_Implmnt\iCE40LP384_blink.edf

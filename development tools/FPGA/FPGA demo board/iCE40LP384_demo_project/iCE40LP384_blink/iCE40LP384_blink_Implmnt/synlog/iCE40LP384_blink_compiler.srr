@@ -12,13 +12,9 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
 @I::"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\main.v" (library work)
-@W: CG921 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\main.v":12:5:12:8|LED1 is already declared in this scope.
-@I::"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\DFF.v" (library work)
 Verilog syntax check successful!
 Options changed - recompiling
 Selecting top level module main
-@N: CG364 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\DFF.v":1:7:1:9|Synthesizing module DFF in library work.
-
 @N: CG364 :"C:\Users\Aljaz\OneDrive - Univerza v Ljubljani\PROJEKTI\GPS sprejemnik\FPGA\iCE40LP384-SG32\iCE40LP384_demo_project\main.v":1:7:1:10|Synthesizing module main in library work.
 
 
@@ -27,7 +23,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 15:42:48 2023
+# Mon Nov 27 20:20:12 2023
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
@@ -40,7 +36,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 15:42:48 2023
+# Mon Nov 27 20:20:13 2023
 
 ###########################################################]
 @END
@@ -50,6 +46,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Nov 13 15:42:48 2023
+# Mon Nov 27 20:20:13 2023
 
 ###########################################################]

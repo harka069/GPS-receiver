@@ -1,61 +1,31 @@
-ble_pack clk_div_1_cry_1_c_LC_34 {clk_div_1_cry_1_c}
-ble_pack clk_div[2]_LC_19 {clk_div[2], clk_div_1_cry_2_c, clk_div_RNO[2]}
-ble_pack clk_div[3]_LC_25 {clk_div[3], clk_div_1_cry_3_c, clk_div_RNO[3]}
-ble_pack clk_div[4]_LC_26 {clk_div[4], clk_div_1_cry_4_c, clk_div_RNO[4]}
-ble_pack clk_div[5]_LC_27 {clk_div[5], clk_div_1_cry_5_c, clk_div_RNO[5]}
-ble_pack clk_div[6]_LC_28 {clk_div[6], clk_div_1_cry_6_c, clk_div_RNO[6]}
-ble_pack clk_div[7]_LC_29 {clk_div[7], clk_div_1_cry_7_c, clk_div_RNO[7]}
-ble_pack clk_div[8]_LC_30 {clk_div[8], clk_div_1_cry_8_c, clk_div_RNO[8]}
-clb_pack PLB_0 {clk_div_1_cry_1_c_LC_34, clk_div[2]_LC_19, clk_div[3]_LC_25, clk_div[4]_LC_26, clk_div[5]_LC_27, clk_div[6]_LC_28, clk_div[7]_LC_29, clk_div[8]_LC_30}
-ble_pack clk_div[9]_LC_31 {clk_div[9], clk_div_1_cry_9_c, clk_div_RNO[9]}
-ble_pack clk_div[10]_LC_10 {clk_div[10], clk_div_1_cry_10_c, clk_div_RNO[10]}
-ble_pack clk_div[11]_LC_11 {clk_div[11], clk_div_1_cry_11_c, clk_div_RNO[11]}
-ble_pack clk_div[12]_LC_12 {clk_div[12], clk_div_1_cry_12_c, clk_div_RNO[12]}
-ble_pack clk_div[13]_LC_13 {clk_div[13], clk_div_1_cry_13_c, clk_div_RNO[13]}
-ble_pack clk_div[14]_LC_14 {clk_div[14], clk_div_1_cry_14_c, clk_div_RNO[14]}
-ble_pack clk_div[15]_LC_15 {clk_div[15], clk_div_1_cry_15_c, clk_div_RNO[15]}
-ble_pack clk_div[16]_LC_16 {clk_div[16], clk_div_1_cry_16_c, clk_div_RNO[16]}
-clb_pack PLB_1 {clk_div[9]_LC_31, clk_div[10]_LC_10, clk_div[11]_LC_11, clk_div[12]_LC_12, clk_div[13]_LC_13, clk_div[14]_LC_14, clk_div[15]_LC_15, clk_div[16]_LC_16}
-ble_pack clk_div[17]_LC_17 {clk_div[17], clk_div_1_cry_17_c, clk_div_RNO[17]}
-ble_pack clk_div[18]_LC_18 {clk_div[18], clk_div_1_cry_18_c, clk_div_RNO[18]}
-ble_pack clk_div_1_cry_19_c_LC_33 {clk_div_1_cry_19_c}
-ble_pack clk_div[20]_LC_20 {clk_div[20], clk_div_1_cry_20_c, clk_div_RNO[20]}
-ble_pack clk_div[21]_LC_21 {clk_div[21], clk_div_1_cry_21_c, clk_div_RNO[21]}
-ble_pack clk_div[22]_LC_22 {clk_div[22], clk_div_1_cry_22_c, clk_div_RNO[22]}
-ble_pack clk_div[23]_LC_23 {clk_div[23], clk_div_1_cry_23_c, clk_div_RNO[23]}
-ble_pack clk_div[24]_LC_24 {clk_div[24], clk_div_RNO[24]}
-clb_pack PLB_2 {clk_div[17]_LC_17, clk_div[18]_LC_18, clk_div_1_cry_19_c_LC_33, clk_div[20]_LC_20, clk_div[21]_LC_21, clk_div[22]_LC_22, clk_div[23]_LC_23, clk_div[24]_LC_24}
-ble_pack clk_div_RNI91U1[1]_LC_40 {clk_div_RNI91U1[1]}
-ble_pack clk_div_RNIF3T2[2]_LC_43 {clk_div_RNIF3T2[2]}
-ble_pack clk_div_RNIM6S3[3]_LC_47 {clk_div_RNIM6S3[3]}
-ble_pack clk_div_RNIUAR4[4]_LC_52 {clk_div_RNIUAR4[4]}
-ble_pack clk_div_RNI7GQ5[5]_LC_37 {clk_div_RNI7GQ5[5]}
-ble_pack clk_div_RNIHMP6[6]_LC_44 {clk_div_RNIHMP6[6]}
-ble_pack clk_div_RNISTO7[7]_LC_50 {clk_div_RNISTO7[7]}
-ble_pack clk_div_RNI86O8[8]_LC_38 {clk_div_RNI86O8[8]}
-clb_pack PLB_3 {clk_div_RNI91U1[1]_LC_40, clk_div_RNIF3T2[2]_LC_43, clk_div_RNIM6S3[3]_LC_47, clk_div_RNIUAR4[4]_LC_52, clk_div_RNI7GQ5[5]_LC_37, clk_div_RNIHMP6[6]_LC_44, clk_div_RNISTO7[7]_LC_50, clk_div_RNI86O8[8]_LC_38}
-ble_pack clk_div_RNILFN9[9]_LC_45 {clk_div_RNILFN9[9]}
-ble_pack clk_div_RNIAAMP[10]_LC_41 {clk_div_RNIAAMP[10]}
-ble_pack clk_div_RNI06L91[11]_LC_35 {clk_div_RNI06L91[11]}
-ble_pack clk_div_RNIN2KP1[12]_LC_48 {clk_div_RNIN2KP1[12]}
-ble_pack clk_div_RNIF0J92[13]_LC_42 {clk_div_RNIF0J92[13]}
-ble_pack clk_div_RNI8VHP2[14]_LC_39 {clk_div_RNI8VHP2[14]}
-ble_pack clk_div_RNI2VG93[15]_LC_36 {clk_div_RNI2VG93[15]}
-ble_pack clk_div_RNITVFP3[16]_LC_51 {clk_div_RNITVFP3[16]}
-clb_pack PLB_4 {clk_div_RNILFN9[9]_LC_45, clk_div_RNIAAMP[10]_LC_41, clk_div_RNI06L91[11]_LC_35, clk_div_RNIN2KP1[12]_LC_48, clk_div_RNIF0J92[13]_LC_42, clk_div_RNI8VHP2[14]_LC_39, clk_div_RNI2VG93[15]_LC_36, clk_div_RNITVFP3[16]_LC_51}
-ble_pack clk_div_RNIP1F94[17]_LC_49 {clk_div_RNIP1F94[17]}
-ble_pack clk_div_RNIM4EP4[18]_LC_46 {clk_div_RNIM4EP4[18]}
-ble_pack clk_div_RNIK8D95[19]_LC_7 {clk_div_RNIK8D95[19]}
-clb_pack PLB_5 {clk_div_RNIP1F94[17]_LC_49, clk_div_RNIM4EP4[18]_LC_46, clk_div_RNIK8D95[19]_LC_7}
-ble_pack D1.Q_0_RNIM7846_LC_0 {D1.Q_0_RNIM7846}
-ble_pack LED2_LC_6 {LED2, LED2_RNO}
-ble_pack D2.Q_0_RNIPEVT5_LC_2 {D2.Q_0_RNIPEVT5}
-ble_pack Q_ret_LC_3 {Q_ret, D2.Q_0_RNIT9R86}
-ble_pack D2.g0_0_1_LC_5 {D2.g0_0_1}
-ble_pack D2.Q_0_LC_4 {D2.Q_0, D2.Q_0_RNO}
-ble_pack D1.Q_0_LC_1 {D1.Q_0, D1.Q_0_RNO}
-ble_pack clk_div[19]_LC_32 {clk_div[19], clk_div_19_THRU_LUT4_0}
-clb_pack PLB_6 {D1.Q_0_RNIM7846_LC_0, LED2_LC_6, D2.Q_0_RNIPEVT5_LC_2, Q_ret_LC_3, D2.g0_0_1_LC_5, D2.Q_0_LC_4, D1.Q_0_LC_1, clk_div[19]_LC_32}
-ble_pack clk_div[1]_LC_9 {clk_div[1], clk_div_RNO[1]}
-ble_pack clk_div[0]_LC_8 {clk_div[0], clk_div_RNO[0]}
-clb_pack PLB_7 {clk_div[1]_LC_9, clk_div[0]_LC_8}
+ble_pack clk_div[0]_LC_0 {clk_div[0], clk_div_cry_c[0], clk_div_RNO[0]}
+ble_pack clk_div[1]_LC_1 {clk_div[1], clk_div_cry_c[1], clk_div_RNO[1]}
+ble_pack clk_div[2]_LC_12 {clk_div[2], clk_div_cry_c[2], clk_div_RNO[2]}
+ble_pack clk_div[3]_LC_18 {clk_div[3], clk_div_cry_c[3], clk_div_RNO[3]}
+ble_pack clk_div[4]_LC_19 {clk_div[4], clk_div_cry_c[4], clk_div_RNO[4]}
+ble_pack clk_div[5]_LC_20 {clk_div[5], clk_div_cry_c[5], clk_div_RNO[5]}
+ble_pack clk_div[6]_LC_21 {clk_div[6], clk_div_cry_c[6], clk_div_RNO[6]}
+ble_pack clk_div[7]_LC_22 {clk_div[7], clk_div_cry_c[7], clk_div_RNO[7]}
+clb_pack PLB_0 {clk_div[0]_LC_0, clk_div[1]_LC_1, clk_div[2]_LC_12, clk_div[3]_LC_18, clk_div[4]_LC_19, clk_div[5]_LC_20, clk_div[6]_LC_21, clk_div[7]_LC_22}
+ble_pack clk_div[8]_LC_23 {clk_div[8], clk_div_cry_c[8], clk_div_RNO[8]}
+ble_pack clk_div[9]_LC_24 {clk_div[9], clk_div_cry_c[9], clk_div_RNO[9]}
+ble_pack clk_div[10]_LC_2 {clk_div[10], clk_div_cry_c[10], clk_div_RNO[10]}
+ble_pack clk_div[11]_LC_3 {clk_div[11], clk_div_cry_c[11], clk_div_RNO[11]}
+ble_pack clk_div[12]_LC_4 {clk_div[12], clk_div_cry_c[12], clk_div_RNO[12]}
+ble_pack clk_div[13]_LC_5 {clk_div[13], clk_div_cry_c[13], clk_div_RNO[13]}
+ble_pack clk_div[14]_LC_6 {clk_div[14], clk_div_cry_c[14], clk_div_RNO[14]}
+ble_pack clk_div[15]_LC_7 {clk_div[15], clk_div_cry_c[15], clk_div_RNO[15]}
+clb_pack PLB_1 {clk_div[8]_LC_23, clk_div[9]_LC_24, clk_div[10]_LC_2, clk_div[11]_LC_3, clk_div[12]_LC_4, clk_div[13]_LC_5, clk_div[14]_LC_6, clk_div[15]_LC_7}
+ble_pack clk_div[16]_LC_8 {clk_div[16], clk_div_cry_c[16], clk_div_RNO[16]}
+ble_pack clk_div[17]_LC_9 {clk_div[17], clk_div_cry_c[17], clk_div_RNO[17]}
+ble_pack clk_div[18]_LC_10 {clk_div[18], clk_div_cry_c[18], clk_div_RNO[18]}
+ble_pack clk_div[19]_LC_11 {clk_div[19], clk_div_cry_c[19], clk_div_RNO[19]}
+ble_pack clk_div[20]_LC_13 {clk_div[20], clk_div_cry_c[20], clk_div_RNO[20]}
+ble_pack clk_div[21]_LC_14 {clk_div[21], clk_div_cry_c[21], clk_div_RNO[21]}
+ble_pack clk_div[22]_LC_15 {clk_div[22], clk_div_cry_c[22], clk_div_RNO[22]}
+ble_pack clk_div[23]_LC_16 {clk_div[23], clk_div_cry_c[23], clk_div_RNO[23]}
+clb_pack PLB_2 {clk_div[16]_LC_8, clk_div[17]_LC_9, clk_div[18]_LC_10, clk_div[19]_LC_11, clk_div[20]_LC_13, clk_div[21]_LC_14, clk_div[22]_LC_15, clk_div[23]_LC_16}
+ble_pack clk_div[24]_LC_17 {clk_div[24], clk_div_RNO[24]}
+clb_pack PLB_3 {clk_div[24]_LC_17}
+ble_pack LC_25 {CONSTANT_ONE_LUT4}
+clb_pack PLB_4 {LC_25}
