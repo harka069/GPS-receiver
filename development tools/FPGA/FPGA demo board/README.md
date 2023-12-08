@@ -1,5 +1,5 @@
 # Lattice iCE40LP384 demo board
-This is a simple demo circuit using Lattice iCE40LP384 FPGA in QFN32 package. The configuration is stored in the SST25VF512A's 512 kB flash memory and can be programmed with the [Lattice LSO programmer](../Lattice_LSO_programmer). Most of the I/O pins are connected to 3mm THT LEDs, and three pins are connected to buttons. One pin is used for the global clock (crystal oscillator of arbitrary frequency up to 125 MHz), and one pin is connected to a BNC connector (Molex 73100) via a 220 Ohm resistor. The QFN package (iCE40LP384) is designed for manual hot-air soldering. 
+This is a simple demo circuit using Lattice iCE40LP384 FPGA in QFN32 package. The configuration is stored in the SST25VF512A's 512 kB flash memory and can be programmed with the [Lattice LSO programmer](../Lattice_LSO_programmer). Most of the I/O pins are connected to 3mm THT LEDs, while three pins are connected to buttons. One more pin is used for the global clock (crystal oscillator of arbitrary frequency up to 125 MHz), and one pin is connected to a BNC connector (Molex 73100) via a 220 Ohm resistor. The QFN package (iCE40LP384) is designed for manual hot-air soldering. 
 
 ![schematics](shematic_iCE40LP384_demo_board.svg?raw=true "iCE40LP384 demo board schematics")
 
