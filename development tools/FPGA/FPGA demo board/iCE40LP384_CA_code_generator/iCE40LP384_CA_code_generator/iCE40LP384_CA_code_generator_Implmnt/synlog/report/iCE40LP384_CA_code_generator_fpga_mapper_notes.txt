@@ -1,0 +1,13 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":40:0:40:5|Removing sequential instance G2.q[0] (in view: work.TOP(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: FX1016 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":2:10:2:12|SB_GB_IO inserted on the port clk.
+@N: FX1017 :|SB_GB inserted on the net N_31.
+@N: FX1017 :|SB_GB inserted on the net BUTTON1_c_i.
+@N: MT611 :|Automatically generated clock TOP|stevec_derived_clock[4] is not used and is being removed
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

@@ -1,0 +1,73 @@
+ble_pack BUTTON1_ibuf_RNIIUI2_LC_1_4_5 { BUTTON1_ibuf_RNIIUI2 }
+clb_pack LT_1_4 { BUTTON1_ibuf_RNIIUI2_LC_1_4_5 }
+set_location LT_1_4 1 4
+ble_pack stevec_3_LC_1_5_0 { stevec_RNO[3], stevec[3] }
+ble_pack stevec_0_LC_1_5_2 { stevec_RNO[0], stevec[0] }
+ble_pack stevec_2_LC_1_5_3 { stevec_RNO[2], stevec[2] }
+ble_pack stevec_e_RNIL8L9_4_LC_1_5_4 { stevec_e_RNIL8L9[4] }
+ble_pack stevec_RNI8OFC_1_LC_1_5_5 { stevec_RNI8OFC[1] }
+ble_pack stevec_1_LC_1_5_6 { stevec_RNO[1], stevec[1] }
+clb_pack LT_1_5 { stevec_3_LC_1_5_0, stevec_0_LC_1_5_2, stevec_2_LC_1_5_3, stevec_e_RNIL8L9_4_LC_1_5_4, stevec_RNI8OFC_1_LC_1_5_5, stevec_1_LC_1_5_6 }
+set_location LT_1_5 1 5
+ble_pack G1.q_0_LC_1_7_5 { G1.q_0_THRU_LUT4_0, G1.q[0] }
+clb_pack LT_1_7 { G1.q_0_LC_1_7_5 }
+set_location LT_1_7 1 7
+ble_pack stevec_e_4_LC_2_5_0 { stevec_e_RNO[4], stevec_e[4] }
+clb_pack LT_2_5 { stevec_e_4_LC_2_5_0 }
+set_location LT_2_5 2 5
+ble_pack G1.q_1_LC_2_7_5 { G1.q_1_THRU_LUT4_0, G1.q[1] }
+clb_pack LT_2_7 { G1.q_1_LC_2_7_5 }
+set_location LT_2_7 2 7
+ble_pack G2.q_8_LC_3_5_0 { G2.q_8_THRU_LUT4_0, G2.q[8] }
+ble_pack G2.q_2_LC_3_5_1 { G2.q_2_THRU_LUT4_0, G2.q[2] }
+ble_pack G2.q_4_LC_3_5_2 { G2.q_4_THRU_LUT4_0, G2.q[4] }
+ble_pack G2.q_7_LC_3_5_3 { G2.q_7_THRU_LUT4_0, G2.q[7] }
+ble_pack G2.q_5_LC_3_5_4 { G2.q_5_THRU_LUT4_0, G2.q[5] }
+ble_pack G2.q_3_LC_3_5_5 { G2.q_3_THRU_LUT4_0, G2.q[3] }
+ble_pack G2.q_1_LC_3_5_6 { G2.q_1_THRU_LUT4_0, G2.q[1] }
+ble_pack G2.q_9_LC_3_5_7 { G2.q_RNO[9], G2.q[9] }
+clb_pack LT_3_5 { G2.q_8_LC_3_5_0, G2.q_2_LC_3_5_1, G2.q_4_LC_3_5_2, G2.q_7_LC_3_5_3, G2.q_5_LC_3_5_4, G2.q_3_LC_3_5_5, G2.q_1_LC_3_5_6, G2.q_9_LC_3_5_7 }
+set_location LT_3_5 3 5
+ble_pack G2.q_RNO_0_9_LC_3_6_3 { G2.q_RNO_0[9] }
+clb_pack LT_3_6 { G2.q_RNO_0_9_LC_3_6_3 }
+set_location LT_3_6 3 6
+ble_pack G1.q_2_LC_3_8_0 { G1.q_2_THRU_LUT4_0, G1.q[2] }
+ble_pack G1.q_3_LC_3_8_2 { G1.q_3_THRU_LUT4_0, G1.q[3] }
+clb_pack LT_3_8 { G1.q_2_LC_3_8_0, G1.q_3_LC_3_8_2 }
+set_location LT_3_8 3 8
+ble_pack BNC_obuf_RNO_LC_4_5_6 { BNC_obuf_RNO }
+clb_pack LT_4_5 { BNC_obuf_RNO_LC_4_5_6 }
+set_location LT_4_5 4 5
+ble_pack G2.q_6_LC_4_6_0 { G2.q_6_THRU_LUT4_0, G2.q[6] }
+clb_pack LT_4_6 { G2.q_6_LC_4_6_0 }
+set_location LT_4_6 4 6
+ble_pack G1.q_9_LC_4_7_3 { G1.q_RNO[9], G1.q[9] }
+clb_pack LT_4_7 { G1.q_9_LC_4_7_3 }
+set_location LT_4_7 4 7
+ble_pack G1.q_5_LC_4_8_1 { G1.q_5_THRU_LUT4_0, G1.q[5] }
+ble_pack G1.q_4_LC_4_8_6 { G1.q_4_THRU_LUT4_0, G1.q[4] }
+clb_pack LT_4_8 { G1.q_5_LC_4_8_1, G1.q_4_LC_4_8_6 }
+set_location LT_4_8 4 8
+ble_pack G1.q_7_LC_5_7_5 { G1.q_7_THRU_LUT4_0, G1.q[7] }
+ble_pack G1.q_8_LC_5_7_6 { G1.q_8_THRU_LUT4_0, G1.q[8] }
+clb_pack LT_5_7 { G1.q_7_LC_5_7_5, G1.q_8_LC_5_7_6 }
+set_location LT_5_7 5 7
+ble_pack G1.q_6_LC_5_8_6 { G1.q_6_THRU_LUT4_0, G1.q[6] }
+clb_pack LT_5_8 { G1.q_6_LC_5_8_6 }
+set_location LT_5_8 5 8
+set_location stevec_RNI8OFC_0[1] 0 5
+set_location BUTTON1_ibuf_RNIIUI2_0 0 4
+set_io clk 8
+set_io LED[9] 22
+set_io LED[8] 23
+set_io LED[7] 26
+set_io LED[6] 27
+set_io LED[5] 29
+set_io LED[4] 30
+set_io LED[3] 31
+set_io LED[2] 32
+set_io LED[1] 1
+set_io LED[0] 2
+set_io BUTTON3 5
+set_io BUTTON1 7
+set_io BNC 18

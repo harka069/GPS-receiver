@@ -1,0 +1,2 @@
+@W: CG136 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":42:4:42:5|Edge and condition mismatch
+

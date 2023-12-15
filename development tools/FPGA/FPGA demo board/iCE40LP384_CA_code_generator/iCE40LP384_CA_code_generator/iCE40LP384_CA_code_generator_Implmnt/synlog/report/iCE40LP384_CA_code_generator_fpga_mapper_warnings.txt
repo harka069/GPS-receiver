@@ -1,0 +1,2 @@
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":18:0:18:5|User-specified initial value defined for instance stevec[4:0] is being ignored. 
+@W: MT420 |Found inferred clock TOP|clk with period 5.74ns. Please declare a user-defined clock on object "p:clk"

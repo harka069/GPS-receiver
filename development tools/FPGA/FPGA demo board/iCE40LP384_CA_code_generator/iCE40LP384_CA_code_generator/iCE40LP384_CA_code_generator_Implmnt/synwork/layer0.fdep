@@ -1,0 +1,18 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/|-I|/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib|-v2001|-devicelib|/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/linux_a_64/c_ver":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/generic/sb_ice40.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/hypermods.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v":1701685975
+#CUR:"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh":1701685975
+#CUR:"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1702647981
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work shift_reg 0
+module work TOP 0

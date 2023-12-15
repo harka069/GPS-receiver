@@ -1,0 +1,7 @@
+Selecting top level module TOP
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":33:7:33:15|Synthesizing module shift_reg in library work.
+
+@W: CG136 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":42:4:42:5|Edge and condition mismatch
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Synthesizing module TOP in library work.
+
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":4:10:4:16|Input BUTTON2 is unused.
