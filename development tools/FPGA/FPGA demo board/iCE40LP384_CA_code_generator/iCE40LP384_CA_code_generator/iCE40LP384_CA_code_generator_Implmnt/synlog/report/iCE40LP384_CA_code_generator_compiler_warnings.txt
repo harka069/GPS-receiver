@@ -1,2 +1,5 @@
-@W: CG136 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":42:4:42:5|Edge and condition mismatch
+@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":19:4:19:9|Pruning unused register stevec[7:0]. Make sure that there are no unused intermediate registers.
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input in_f_correct on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input phase on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":6:17:6:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 

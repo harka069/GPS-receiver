@@ -5,6 +5,34 @@ module TOP (
     input BUTTON3,
     output [9:0] LED,
     output BNC
+    );
+    
+    /* 
+    cagen CA1(.clk(clk),
+              .en(BUTTON1),
+              .rst(!BUTTON2),
+              .t0(3),
+              .t1(6),
+              .q(LED),
+              .code(BNC)
+            );
+    */
+    nco NCO1(.clk(clk),
+             .fout(BNC),
+             .rst(!BUTTON2),
+             .LED(LED[3:0])
+    );
+
+endmodule
+
+
+/*module TOP (
+    input clk,
+    input BUTTON1,
+    input BUTTON2,
+    input BUTTON3,
+    output [9:0] LED,
+    output BNC
 );
 reg stanje = 0;
 wire data1, data2;
@@ -25,28 +53,26 @@ assign data1 = q_G1[2]^q_G1[9];
 assign data2 = ((q_G2[9]^q_G2[8])^(q_G2[5]^q_G2[7]))^(q_G2[1]^q_G2[2]); 
 assign CAout = (q_G2[3]^q_G2[6])^q_G1[9];
 assign BNC = (BUTTON3==1'b1) ? q_G1[9] : CAout;
+endmodule*/
 
 
-endmodule
-
-
-module shift_reg #(parameter bit_count = 10)(
+/*module shift_reg #(parameter bit_count = 10)(
     input sync, 
     input clk, 
     input data,
     output reg [bit_count-1:0] q
 );
 
-always @(posedge clk, posedge sync)
+always @(posedge clk , posedge sync)
 begin
-    if(!sync) begin
-        q <= {data, q[bit_count - 1:1]};
-    end
-    else begin
+    if(sync == 1) begin
         q <= 10'b1111111111;
     end
+    else begin
+        q <= {data, q[bit_count - 1:1]};
+    end
 end  
-endmodule
+endmodule*/
 
 
 /*always @(negedge BUTTON3)

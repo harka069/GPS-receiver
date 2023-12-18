@@ -3,6 +3,8 @@
 #--  Project file /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/scratchproject.prs
 
 #project files
+add_file -verilog "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v"
+add_file -verilog "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v"
 add_file -verilog "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v"
 
 

@@ -1,7 +1,26 @@
 Selecting top level module TOP
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":33:7:33:15|Synthesizing module shift_reg in library work.
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":32:7:32:15|Synthesizing module shift_reg in library work.
 
-@W: CG136 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":42:4:42:5|Edge and condition mismatch
+	bit_count=32'b00000000000000000000000000000100
+	init_val=4'b1000
+   Generated name = shift_reg_4s_8
+
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":1:7:1:9|Synthesizing module nco in library work.
+
+@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":19:4:19:9|Pruning unused register stevec[7:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[7] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[6] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[5] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[4] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[3] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[2] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[1] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[0] is always 0.
 @N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Synthesizing module TOP in library work.
 
-@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":4:10:4:16|Input BUTTON2 is unused.
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input in_f_correct on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input phase on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":6:17:6:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":3:10:3:16|Input BUTTON1 is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":5:10:5:16|Input BUTTON3 is unused.
+@E: CL172 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":11:14:11:19|Only one always block can assign a given variable stevec[7:0]

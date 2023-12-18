@@ -16,8 +16,14 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 </row>
 <row>
 <data>TOP|clk</data>
-<data>174.3 MHz</data>
-<data>148.1 MHz</data>
-<data>-1.013</data>
+<data>205.6 MHz</data>
+<data>174.7 MHz</data>
+<data>-0.858</data>
+</row>
+<row>
+<data>nco|un13_clk_internal_inferred_clock</data>
+<data>249.3 MHz</data>
+<data>211.9 MHz</data>
+<data>-0.708</data>
 </row>
 </report_table>

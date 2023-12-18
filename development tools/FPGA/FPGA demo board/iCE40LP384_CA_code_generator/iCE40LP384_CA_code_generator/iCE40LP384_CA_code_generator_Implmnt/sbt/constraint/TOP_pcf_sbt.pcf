@@ -4,7 +4,7 @@
 
 # Version:            2020.12.27943
 
-# File Generated:     Dec 15 2023 15:09:45
+# File Generated:     Dec 18 2023 10:36:36
 
 # Family & Device:    iCE40LP384
 
@@ -15,7 +15,7 @@
 ###IOSet List 14
 set_io BNC 18 -io_std SB_LVCMOS -pullup no
 set_io BUTTON1 7 -io_std SB_LVCMOS -pullup no
-set_io BUTTON3 5 -io_std SB_LVCMOS -pullup no
+set_io BUTTON2 6 -io_std SB_LVCMOS -pullup no
 set_io LED[0] 2 -io_std SB_LVCMOS -pullup no
 set_io LED[1] 1 -io_std SB_LVCMOS -pullup no
 set_io LED[2] 32 -io_std SB_LVCMOS -pullup no

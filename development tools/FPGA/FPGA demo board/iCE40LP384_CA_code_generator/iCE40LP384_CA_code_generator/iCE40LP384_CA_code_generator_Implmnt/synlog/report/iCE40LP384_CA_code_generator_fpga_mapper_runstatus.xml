@@ -13,13 +13,13 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>13</data>
+<data>17</data>
 <report_link name="more">
 <data>/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synlog/report/iCE40LP384_CA_code_generator_fpga_mapper_notes.txt</data>
 </report_link>
 </info>
 <info name="Warnings">
-<data>2</data>
+<data>3</data>
 <report_link name="more">
 <data>/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synlog/report/iCE40LP384_CA_code_generator_fpga_mapper_warnings.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>133MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1702649133</data>
+<data type="timestamp">1702912751</data>
 </info>
 </job_info>
 </job_run_status>

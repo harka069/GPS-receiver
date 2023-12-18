@@ -9,65 +9,59 @@ Part:			ICE40LP384QN32 (Lattice)
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     24                 100 %                
+FLOPS     13                 100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block TOP:	24 (41.38 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP:	13 (24.53 % Utilization)
 
 
 COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     12                 100 %                
-=================================================
-Total COMBINATIONAL LOGIC in the block TOP:	12 (20.69 % Utilization)
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       13                 100 %                
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block TOP:	20 (37.74 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     16                 100 %                
+PADS     13                 100 %                
 =================================================
-Total IO PADS in the block TOP:	16 (27.59 % Utilization)
+Total IO PADS in the block TOP:	13 (24.53 % Utilization)
 
------------------------------------------------------------------
-########   Utilization report for  cell:   shift_reg_0   ########
-Instance path:   TOP.shift_reg_0                                 
-=================================================================
+---------------------------------------------------------
+########   Utilization report for  cell:   nco   ########
+Instance path:   TOP.nco                                 
+=========================================================
 
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     9                  37.5 %               
+FLOPS     13                 100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.shift_reg_0:	9 (15.52 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block TOP.nco:	13 (24.53 % Utilization)
 
 
 COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     2                  16.7 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block TOP.shift_reg_0:	2 (3.45 % Utilization)
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       12                 92.3 %               
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block TOP.nco:	19 (35.85 % Utilization)
 
------------------------------------------------------------------
-########   Utilization report for  cell:   shift_reg_1   ########
-Instance path:   TOP.shift_reg_1                                 
-=================================================================
+--------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_4s_8   ########
+Instance path:   nco.shift_reg_4s_8                                 
+====================================================================
 
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     10                 41.7 %               
+FLOPS     4                  30.8 %               
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.shift_reg_1:	10 (17.24 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     1                  8.33 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block TOP.shift_reg_1:	1 (1.72 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block nco.shift_reg_4s_8:	4 (7.55 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

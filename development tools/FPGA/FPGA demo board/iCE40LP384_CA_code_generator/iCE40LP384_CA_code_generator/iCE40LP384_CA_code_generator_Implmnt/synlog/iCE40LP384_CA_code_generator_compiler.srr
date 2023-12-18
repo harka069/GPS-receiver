@@ -12,44 +12,43 @@ Running on host :kristof-IdeaPad
 @I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
 @I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
 @I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v" (library work)
 @I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v" (library work)
 Verilog syntax check successful!
+File /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v changed - recompiling
 Selecting top level module TOP
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":33:7:33:15|Synthesizing module shift_reg in library work.
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":32:7:32:15|Synthesizing module shift_reg in library work.
 
-@W: CG136 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":42:4:42:5|Edge and condition mismatch
+	bit_count=32'b00000000000000000000000000000100
+	init_val=4'b1000
+   Generated name = shift_reg_4s_8
+
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":1:7:1:9|Synthesizing module nco in library work.
+
+@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":19:4:19:9|Pruning unused register stevec[7:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[7] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[6] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[5] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[4] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[3] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[2] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[1] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[0] is always 0.
 @N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Synthesizing module TOP in library work.
 
-@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":4:10:4:16|Input BUTTON2 is unused.
-
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
-
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input in_f_correct on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input phase on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":6:17:6:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":3:10:3:16|Input BUTTON1 is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":5:10:5:16|Input BUTTON3 is unused.
+@E: CL172 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":11:14:11:19|Only one always block can assign a given variable stevec[7:0]
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Fri Dec 15 15:05:31 2023
-
-###########################################################]
-Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
-@N|Running in 64-bit mode
-@N: NF107 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Selected library: work cell: TOP view verilog as top level
-@N: NF107 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Selected library: work cell: TOP view verilog as top level
-
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
-
-Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Fri Dec 15 15:05:31 2023
+# Mon Dec 18 16:29:09 2023
 
 ###########################################################]
 @END
-
-At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
-
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-
-Process completed successfully.
-# Fri Dec 15 15:05:31 2023
+# Mon Dec 18 16:29:09 2023
 
 ###########################################################]
