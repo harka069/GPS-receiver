@@ -4,7 +4,8 @@ module TOP (
     input BUTTON2,
     input BUTTON3,
     output [9:0] LED,
-    output BNC
+    output BNC1,
+    output BNC2
     );
     
     /* 
@@ -18,9 +19,13 @@ module TOP (
             );
     */
     nco NCO1(.clk(clk),
-             .fout(BNC),
-             .rst(!BUTTON2),
-             .LED(LED[3:0])
+             .out_sin(BNC1),
+             .out_cos(BNC2),
+             .div_enable(!BUTTON2),
+             .LED(LED[3:0]),
+             .sync(!BUTTON3),
+             .phase(!BUTTON1)
+             //.LED(LED[3:0])
     );
 
 endmodule

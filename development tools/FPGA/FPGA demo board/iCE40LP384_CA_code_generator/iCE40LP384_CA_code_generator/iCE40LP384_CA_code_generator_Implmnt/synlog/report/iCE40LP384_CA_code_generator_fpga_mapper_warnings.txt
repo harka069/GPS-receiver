@@ -1,3 +1,5 @@
-@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|User-specified initial value defined for instance NCO1.clk_frac is being ignored. 
-@W: MT420 |Found inferred clock TOP|clk with period 4.86ns. Please declare a user-defined clock on object "p:clk"
-@W: MT420 |Found inferred clock nco|un13_clk_internal_inferred_clock with period 4.01ns. Please declare a user-defined clock on object "n:NCO1.un13_clk_internal"
+@W: MT462 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Net NCO1.NCO_clk appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|User-specified initial value defined for instance NCO1.counter[20:0] is being ignored. 
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|User-specified initial value defined for instance NCO1.NCO_clk is being ignored. 
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|User-specified initial value defined for instance NCO1.f_correct[0] is being ignored. 
+@W: MT420 |Found inferred clock TOP|clk with period 13.52ns. Please declare a user-defined clock on object "p:clk"

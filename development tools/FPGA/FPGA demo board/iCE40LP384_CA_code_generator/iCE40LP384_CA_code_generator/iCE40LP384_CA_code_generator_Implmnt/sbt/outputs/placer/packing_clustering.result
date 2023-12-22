@@ -1,0 +1,67 @@
+ble_pack NCO1.counter[0]_LC_28 {NCO1.counter[0], NCO1.un1_counter_4.z_cry_0_c, NCO1.un1_counter_4.z_axb_0}
+ble_pack NCO1.counter[1]_LC_46 {NCO1.counter[1], NCO1.un1_counter_4.z_cry_1_c, NCO1.un1_counter_4.z_cry_1_s}
+ble_pack NCO1.counter[2]_LC_47 {NCO1.counter[2], NCO1.un1_counter_4.z_cry_2_c, NCO1.un1_counter_4.z_cry_2_s}
+ble_pack NCO1.counter[3]_LC_48 {NCO1.counter[3], NCO1.un1_counter_4.z_cry_3_c, NCO1.un1_counter_4.z_cry_3_s}
+ble_pack NCO1.counter[4]_LC_49 {NCO1.counter[4], NCO1.un1_counter_4.z_cry_4_c, NCO1.un1_counter_4.z_cry_4_s}
+ble_pack NCO1.counter[5]_LC_50 {NCO1.counter[5], NCO1.un1_counter_4.z_cry_5_c, NCO1.un1_counter_4.z_cry_5_s}
+ble_pack NCO1.counter[6]_LC_51 {NCO1.counter[6], NCO1.un1_counter_4.z_cry_6_c, NCO1.un1_counter_4.z_cry_6_s}
+ble_pack NCO1.counter[7]_LC_52 {NCO1.counter[7], NCO1.un1_counter_4.z_cry_7_c, NCO1.un1_counter_4.z_cry_7_s}
+clb_pack PLB_0 {NCO1.counter[0]_LC_28, NCO1.counter[1]_LC_46, NCO1.counter[2]_LC_47, NCO1.counter[3]_LC_48, NCO1.counter[4]_LC_49, NCO1.counter[5]_LC_50, NCO1.counter[6]_LC_51, NCO1.counter[7]_LC_52}
+ble_pack NCO1.counter[8]_LC_53 {NCO1.counter[8], NCO1.un1_counter_4.z_cry_8_c, NCO1.un1_counter_4.z_cry_8_s}
+ble_pack NCO1.counter[9]_LC_54 {NCO1.counter[9], NCO1.un1_counter_4.z_cry_9_c, NCO1.un1_counter_4.z_cry_9_s}
+ble_pack NCO1.counter[10]_LC_36 {NCO1.counter[10], NCO1.un1_counter_4.z_cry_10_c, NCO1.un1_counter_4.z_cry_10_s}
+ble_pack NCO1.counter[11]_LC_37 {NCO1.counter[11], NCO1.un1_counter_4.z_cry_11_c, NCO1.un1_counter_4.z_cry_11_s}
+ble_pack NCO1.counter[12]_LC_38 {NCO1.counter[12], NCO1.un1_counter_4.z_cry_12_c, NCO1.un1_counter_4.z_cry_12_s}
+ble_pack NCO1.counter[13]_LC_39 {NCO1.counter[13], NCO1.un1_counter_4.z_cry_13_c, NCO1.un1_counter_4.z_cry_13_s}
+ble_pack NCO1.counter[14]_LC_40 {NCO1.counter[14], NCO1.un1_counter_4.z_cry_14_c, NCO1.un1_counter_4.z_cry_14_s}
+ble_pack NCO1.counter[15]_LC_41 {NCO1.counter[15], NCO1.un1_counter_4.z_cry_15_c, NCO1.un1_counter_4.z_cry_15_s}
+clb_pack PLB_1 {NCO1.counter[8]_LC_53, NCO1.counter[9]_LC_54, NCO1.counter[10]_LC_36, NCO1.counter[11]_LC_37, NCO1.counter[12]_LC_38, NCO1.counter[13]_LC_39, NCO1.counter[14]_LC_40, NCO1.counter[15]_LC_41}
+ble_pack NCO1.counter[16]_LC_42 {NCO1.counter[16], NCO1.un1_counter_4.z_cry_16_c, NCO1.un1_counter_4.z_cry_16_s}
+ble_pack NCO1.counter[17]_LC_43 {NCO1.counter[17], NCO1.un1_counter_4.z_cry_17_c, NCO1.un1_counter_4.z_cry_17_s}
+ble_pack NCO1.counter[18]_LC_44 {NCO1.counter[18], NCO1.un1_counter_4.z_cry_18_c, NCO1.un1_counter_4.z_cry_18_s}
+ble_pack NCO1.counter[19]_LC_45 {NCO1.counter[19], NCO1.un1_counter_4.z_cry_19_c, NCO1.un1_counter_4.z_cry_19_s}
+ble_pack NCO1.counter[20]_LC_55 {NCO1.counter[20], NCO1.un1_counter_4.z_s_20}
+clb_pack PLB_2 {NCO1.counter[16]_LC_42, NCO1.counter[17]_LC_43, NCO1.counter[18]_LC_44, NCO1.counter[19]_LC_45, NCO1.counter[20]_LC_55}
+ble_pack NCO1.counter_RNI10C82_0[6]_LC_7 {NCO1.counter_RNI10C82_0[6]}
+ble_pack NCO1.counter_RNIAAML7[6]_LC_16 {NCO1.counter_RNIAAML7[6]}
+ble_pack NCO1.counter_RNIU69T1[11]_LC_26 {NCO1.counter_RNIU69T1[11]}
+ble_pack NCO1.counter_RNI14911_0[3]_LC_9 {NCO1.counter_RNI14911_0[3]}
+ble_pack NCO1.un1_counter_4.z_axb_3_l_fx_LC_33 {NCO1.un1_counter_4.z_axb_3_l_fx}
+ble_pack NCO1.un1_counter_4.z_axb_4_l_fx_LC_34 {NCO1.un1_counter_4.z_axb_4_l_fx}
+ble_pack NCO1.counter_RNI5B9F1[7]_LC_13 {NCO1.counter_RNI5B9F1[7]}
+ble_pack NCO1.un1_counter_4.z_axb_6_l_fx_LC_35 {NCO1.un1_counter_4.z_axb_6_l_fx}
+clb_pack PLB_3 {NCO1.counter_RNI10C82_0[6]_LC_7, NCO1.counter_RNIAAML7[6]_LC_16, NCO1.counter_RNIU69T1[11]_LC_26, NCO1.counter_RNI14911_0[3]_LC_9, NCO1.un1_counter_4.z_axb_3_l_fx_LC_33, NCO1.un1_counter_4.z_axb_4_l_fx_LC_34, NCO1.counter_RNI5B9F1[7]_LC_13, NCO1.un1_counter_4.z_axb_6_l_fx_LC_35}
+ble_pack NCO1.counter_RNI10C82[6]_LC_8 {NCO1.counter_RNI10C82[6]}
+ble_pack NCO1.counter_RNI36M38[6]_LC_11 {NCO1.counter_RNI36M38[6]}
+ble_pack NCO1.counter_RNIN29B2[10]_LC_22 {NCO1.counter_RNIN29B2[10]}
+ble_pack NCO1.counter_RNI6C9F1[7]_LC_14 {NCO1.counter_RNI6C9F1[7]}
+ble_pack NCO1.counter_RNI14911[3]_LC_10 {NCO1.counter_RNI14911[3]}
+ble_pack NCO1.counter_RNIP51O1[17]_LC_24 {NCO1.counter_RNIP51O1[17]}
+clb_pack PLB_4 {NCO1.counter_RNI10C82[6]_LC_8, NCO1.counter_RNI36M38[6]_LC_11, NCO1.counter_RNIN29B2[10]_LC_22, NCO1.counter_RNI6C9F1[7]_LC_14, NCO1.counter_RNI14911[3]_LC_10, NCO1.counter_RNIP51O1[17]_LC_24}
+ble_pack NCO1.counter_RNI37ISD[10]_LC_12 {NCO1.counter_RNI37ISD[10]}
+ble_pack NCO1.counter_RNILDOK3[10]_LC_20 {NCO1.counter_RNILDOK3[10]}
+ble_pack NCO1.counter_RNIA3CC1[2]_LC_15 {NCO1.counter_RNIA3CC1[2]}
+ble_pack NCO1.counter_RNIQJCC1[6]_LC_25 {NCO1.counter_RNIQJCC1[6]}
+ble_pack NCO1.NCO_clk_LC_56 {NCO1.NCO_clk, NCO1.counter_RNI37ISD_10_NCO1.NCO_clk_REP_LUT4_0}
+ble_pack NCO1.counter_RNIML3Q[16]_LC_21 {NCO1.counter_RNIML3Q[16]}
+ble_pack NCO1.counter_RNIEPVN1[14]_LC_17 {NCO1.counter_RNIEPVN1[14]}
+ble_pack NCO1.counter_RNIITVN1_0[14]_LC_18 {NCO1.counter_RNIITVN1_0[14]}
+clb_pack PLB_5 {NCO1.counter_RNI37ISD[10]_LC_12, NCO1.counter_RNILDOK3[10]_LC_20, NCO1.counter_RNIA3CC1[2]_LC_15, NCO1.counter_RNIQJCC1[6]_LC_25, NCO1.NCO_clk_LC_56, NCO1.counter_RNIML3Q[16]_LC_21, NCO1.counter_RNIEPVN1[14]_LC_17, NCO1.counter_RNIITVN1_0[14]_LC_18}
+ble_pack NCO1.counter_RNIITVN1[14]_LC_19 {NCO1.counter_RNIITVN1[14]}
+ble_pack NCO1.un1_counter_4.z_axb_14_l_fx_LC_29 {NCO1.un1_counter_4.z_axb_14_l_fx}
+ble_pack NCO1.un1_counter_4.z_axb_17_l_fx_LC_30 {NCO1.un1_counter_4.z_axb_17_l_fx}
+ble_pack NCO1.un1_counter_4.z_axb_18_l_fx_LC_31 {NCO1.un1_counter_4.z_axb_18_l_fx}
+ble_pack NCO1.un1_counter_4.z_axb_19_l_fx_LC_32 {NCO1.un1_counter_4.z_axb_19_l_fx}
+ble_pack NCO1.counter_RNIP51O1_0[17]_LC_23 {NCO1.counter_RNIP51O1_0[17]}
+ble_pack NCO1.VCO1.sin_data_RNO_0_LC_6 {NCO1.VCO1.sin_data_RNO_0}
+ble_pack NCO1.VCO1.sin_data_LC_5 {NCO1.VCO1.sin_data, NCO1.VCO1.sin_data_RNO}
+clb_pack PLB_6 {NCO1.counter_RNIITVN1[14]_LC_19, NCO1.un1_counter_4.z_axb_14_l_fx_LC_29, NCO1.un1_counter_4.z_axb_17_l_fx_LC_30, NCO1.un1_counter_4.z_axb_18_l_fx_LC_31, NCO1.un1_counter_4.z_axb_19_l_fx_LC_32, NCO1.counter_RNIP51O1_0[17]_LC_23, NCO1.VCO1.sin_data_RNO_0_LC_6, NCO1.VCO1.sin_data_LC_5}
+ble_pack NCO1.VCO1.U1.q[0]_LC_1 {NCO1.VCO1.U1.q[0], NCO1.VCO1.U1.q_RNO[0]}
+ble_pack NCO1.VCO1.U1.q[3]_LC_4 {NCO1.VCO1.U1.q[3], NCO1.VCO1.U1.q_RNO[3]}
+ble_pack NCO1.VCO1.U1.q[2]_LC_3 {NCO1.VCO1.U1.q[2], NCO1.VCO1.U1.q_RNO[2]}
+ble_pack NCO1.VCO1.U1.q[1]_LC_2 {NCO1.VCO1.U1.q[1], NCO1.VCO1.U1.q_RNO[1]}
+ble_pack BUTTON3_ibuf_RNIK877_LC_0 {BUTTON3_ibuf_RNIK877}
+ble_pack LC_57 {CONSTANT_ONE_LUT4}
+clb_pack PLB_7 {NCO1.VCO1.U1.q[0]_LC_1, NCO1.VCO1.U1.q[3]_LC_4, NCO1.VCO1.U1.q[2]_LC_3, NCO1.VCO1.U1.q[1]_LC_2, BUTTON3_ibuf_RNIK877_LC_0, LC_57}
+ble_pack NCO1.f_correct[0]_LC_27 {NCO1.f_correct[0], NCO1.f_correct_RNO[0]}
+clb_pack PLB_8 {NCO1.f_correct[0]_LC_27}

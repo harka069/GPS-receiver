@@ -1,2 +1,1 @@
-CKID0001:@|S:NCO1.un13_clk_internal_inferred_clock_RNO@|E:NCO1.clk_frac@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
-CKID0002:@|S:clk_ibuf_gb_io@|E:NCO1.stevec[7]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
+CKID0001:@|S:clk_ibuf_gb_io@|E:NCO1.NCO_clk@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 

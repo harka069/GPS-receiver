@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=iCE40LP384_CA_code_generator
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../cagen.v,../nco.v,../top.v
+ProjectVFiles=../cagen.v=work,../nco.v=work,../top.v=work
 ProjectCFiles=
 CurImplementation=iCE40LP384_CA_code_generator_Implmnt
 Implementations=iCE40LP384_CA_code_generator_Implmnt

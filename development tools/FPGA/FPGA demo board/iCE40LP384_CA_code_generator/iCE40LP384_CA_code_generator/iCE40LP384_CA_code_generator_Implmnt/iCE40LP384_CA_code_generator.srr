@@ -3,7 +3,7 @@
 #OS: Linux 
 #Hostname: kristof-IdeaPad
 
-# Mon Dec 18 16:29:09 2023
+# Fri Dec 22 15:36:22 2023
 
 #Implementation: iCE40LP384_CA_code_generator_Implmnt
 
@@ -21,43 +21,908 @@ Running on host :kristof-IdeaPad
 @I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
 @I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
 @I::"/home/kristof/lscc/iCEcube2.2020.12/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
-@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v" (library work)
-@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v" (library work)
-@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v" (library work)
+@I::"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v" (library work)
 Verilog syntax check successful!
-File /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v changed - recompiling
+File /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v changed - recompiling
+File /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v changed - recompiling
 Selecting top level module TOP
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":32:7:32:15|Synthesizing module shift_reg in library work.
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":32:7:32:15|Synthesizing module shift_reg in library work.
 
 	bit_count=32'b00000000000000000000000000000100
-	init_val=4'b1000
-   Generated name = shift_reg_4s_8
+	init_val=4'b0011
+   Generated name = shift_reg_4s_3
 
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":1:7:1:9|Synthesizing module nco in library work.
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":39:7:39:9|Synthesizing module vco in library work.
 
-@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":19:4:19:9|Pruning unused register stevec[7:0]. Make sure that there are no unused intermediate registers.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[7] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[6] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[5] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[4] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[3] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[2] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[1] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":24:4:24:9|Register bit stevec[0] is always 0.
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Synthesizing module TOP in library work.
+@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":60:4:60:9|Pruning unused register cos_data. Make sure that there are no unused intermediate registers.
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":2:7:2:9|Synthesizing module nco in library work.
 
-@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input in_f_correct on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":20:8:20:11|Input phase on instance NCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
-@W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":6:17:6:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":3:10:3:16|Input BUTTON1 is unused.
-@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":5:10:5:16|Input BUTTON3 is unused.
-@E: CL172 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-receiver/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":11:14:11:19|Only one always block can assign a given variable stevec[7:0]
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":36:8:36:11|Input div on instance VCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Synthesizing module TOP in library work.
+
+@W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":6:17:6:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL279 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bits 7 to 2 of f_correct[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit f_correct[1] is always 0.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit counter[23] is always 0.
+@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 23 of counter[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 1 of f_correct[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit counter[22] is always 0.
+@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 22 of counter[22:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit counter[21] is always 0.
+@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 21 of counter[21:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":41:10:41:12|Input div is unused.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Dec 18 16:29:09 2023
+
+Process completed successfully.
+# Fri Dec 22 15:36:22 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Selected library: work cell: TOP view verilog as top level
+@N: NF107 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Selected library: work cell: TOP view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Dec 22 15:36:22 2023
 
 ###########################################################]
 @END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Dec 18 16:29:09 2023
+
+Process completed successfully.
+# Fri Dec 22 15:36:22 2023
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_comp.srs changed - recompiling
+@N: NF107 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Selected library: work cell: TOP view verilog as top level
+@N: NF107 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Selected library: work cell: TOP view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Dec 22 15:36:24 2023
+
+###########################################################]
+Pre-mapping Report
+
+# Fri Dec 22 15:36:24 2023
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator_scck.rpt 
+Printing clock  summary report in "/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_1 (in view: work.TOP(verilog)) on net LED[9] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_2 (in view: work.TOP(verilog)) on net LED[8] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_3 (in view: work.TOP(verilog)) on net LED[7] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_4 (in view: work.TOP(verilog)) on net LED[6] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_5 (in view: work.TOP(verilog)) on net LED[5] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_6 (in view: work.TOP(verilog)) on net LED[4] (in view: work.TOP(verilog)) has its enable tied to GND.
+@W: MT462 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Net NCO1.NCO_clk appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=0  set on top level netlist TOP
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start       Requested     Requested     Clock        Clock                     Clock
+Clock       Frequency     Period        Type         Group                     Load 
+------------------------------------------------------------------------------------
+System      728.5 MHz     1.373         system       system_clkgroup           5    
+TOP|clk     150.2 MHz     6.657         inferred     Autoconstr_clkgroup_0     23   
+====================================================================================
+
+@W: MT531 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":44:4:44:9|Found signal identified as System clock which controls 5 sequential elements including NCO1.VCO1.U1.q[3:0].  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. 
+@W: MT529 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Found inferred clock TOP|clk which controls 23 sequential elements including NCO1.counter[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_1 (in view: work.TOP(verilog)) on net LED[9] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_2 (in view: work.TOP(verilog)) on net LED[8] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_3 (in view: work.TOP(verilog)) on net LED[7] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_4 (in view: work.TOP(verilog)) on net LED[6] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@W: MT462 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Net NCO1.NCO_clk appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec 22 15:36:24 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Dec 22 15:36:24 2023
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_1 (in view: work.TOP(verilog)) on net LED[9] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_2 (in view: work.TOP(verilog)) on net LED[8] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_3 (in view: work.TOP(verilog)) on net LED[7] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_4 (in view: work.TOP(verilog)) on net LED[6] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_5 (in view: work.TOP(verilog)) on net LED[5] (in view: work.TOP(verilog)) has its enable tied to GND.
+@N: MO111 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":25:18:25:26|Tristate driver LED_6 (in view: work.TOP(verilog)) on net LED[4] (in view: work.TOP(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Net NCO1.NCO_clk appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|User-specified initial value defined for instance NCO1.counter[20:0] is being ignored. 
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|User-specified initial value defined for instance NCO1.NCO_clk is being ignored. 
+@W: FX1039 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|User-specified initial value defined for instance NCO1.f_correct[0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -2.68ns		  43 /        28
+   2		0h:00m:00s		    -2.68ns		  43 /        28
+
+   3		0h:00m:00s		    -2.68ns		  48 /        28
+
+
+   4		0h:00m:00s		    -2.68ns		  49 /        28
+@N: FX1016 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":2:10:2:12|SB_GB_IO inserted on the port clk.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 28 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+5 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       clk_ibuf_gb_io      SB_GB_IO               28         NCO1.NCO_clk   
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 133MB)
+
+Writing Analyst data base /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synwork/iCE40LP384_CA_code_generator_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+@W: MT420 |Found inferred clock TOP|clk with period 13.52ns. Please declare a user-defined clock on object "p:clk"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Dec 22 15:36:24 2023
+#
+
+
+Top view:               TOP
+Requested Frequency:    74.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.385
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+TOP|clk            74.0 MHz      62.9 MHz      13.518        15.904        -2.385     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+TOP|clk   TOP|clk  |  13.518      -2.385  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TOP|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                         Arrival           
+Instance             Reference     Type       Pin     Net             Time        Slack 
+                     Clock                                                              
+----------------------------------------------------------------------------------------
+NCO1.counter[7]      TOP|clk       SB_DFF     Q       counter[7]      0.796       -2.385
+NCO1.counter[3]      TOP|clk       SB_DFF     Q       counter[3]      0.796       -2.365
+NCO1.counter[8]      TOP|clk       SB_DFF     Q       counter[8]      0.796       -2.313
+NCO1.counter[4]      TOP|clk       SB_DFF     Q       counter[4]      0.796       -2.292
+NCO1.counter[9]      TOP|clk       SB_DFF     Q       counter[9]      0.796       -2.282
+NCO1.counter[5]      TOP|clk       SB_DFF     Q       counter[5]      0.796       -2.261
+NCO1.counter[10]     TOP|clk       SB_DFF     Q       counter[10]     0.796       -2.189
+NCO1.counter[11]     TOP|clk       SB_DFF     Q       counter[11]     0.796       -2.065
+NCO1.counter[6]      TOP|clk       SB_DFF     Q       counter[6]      0.796       -0.529
+NCO1.counter[17]     TOP|clk       SB_DFF     Q       counter[17]     0.796       -0.498
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                        Required           
+Instance             Reference     Type       Pin     Net            Time         Slack 
+                     Clock                                                              
+----------------------------------------------------------------------------------------
+NCO1.counter[20]     TOP|clk       SB_DFF     D       z_s_20         13.363       -2.385
+NCO1.counter[19]     TOP|clk       SB_DFF     D       z_cry_19_s     13.363       -2.186
+NCO1.counter[18]     TOP|clk       SB_DFF     D       z_cry_18_s     13.363       -1.986
+NCO1.counter[17]     TOP|clk       SB_DFF     D       z_cry_17_s     13.363       -1.786
+NCO1.counter[16]     TOP|clk       SB_DFF     D       z_cry_16_s     13.363       -1.586
+NCO1.counter[15]     TOP|clk       SB_DFF     D       z_cry_15_s     13.363       -1.386
+NCO1.counter[14]     TOP|clk       SB_DFF     D       z_cry_14_s     13.363       -1.185
+NCO1.counter[13]     TOP|clk       SB_DFF     D       z_cry_13_s     13.363       -0.986
+NCO1.counter[12]     TOP|clk       SB_DFF     D       z_cry_12_s     13.363       -0.786
+NCO1.counter[11]     TOP|clk       SB_DFF     D       z_cry_11_s     13.363       -0.586
+========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      13.518
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.363
+
+    - Propagation time:                      15.748
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.385
+
+    Number of logic level(s):                22
+    Starting point:                          NCO1.counter[7] / Q
+    Ending point:                            NCO1.counter[20] / D
+    The start point is clocked by            TOP|clk [rising] on pin C
+    The end   point is clocked by            TOP|clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+NCO1.counter[7]                     SB_DFF       Q        Out     0.796     0.796       -         
+counter[7]                          Net          -        -       1.599     -           5         
+NCO1.counter_RNI5B9F1[7]            SB_LUT4      I0       In      -         2.395       -         
+NCO1.counter_RNI5B9F1[7]            SB_LUT4      O        Out     0.661     3.056       -         
+counter_RNI5B9F1[7]                 Net          -        -       1.371     -           1         
+NCO1.counter_RNIU69T1[11]           SB_LUT4      I2       In      -         4.427       -         
+NCO1.counter_RNIU69T1[11]           SB_LUT4      O        Out     0.558     4.986       -         
+un1_counterlto11_c                  Net          -        -       1.371     -           1         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      I1       In      -         6.357       -         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      O        Out     0.589     6.946       -         
+counter_RNIAAML7[6]                 Net          -        -       1.371     -           17        
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      I1       In      -         8.317       -         
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      O        Out     0.589     8.906       -         
+z_axb_3_l_fx                        Net          -        -       0.905     -           2         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     I0       In      -         9.811       -         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     CO       Out     0.380     10.190      -         
+z_cry_3                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CI       In      -         10.204      -         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CO       Out     0.186     10.390      -         
+z_cry_4                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CI       In      -         10.404      -         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CO       Out     0.186     10.590      -         
+z_cry_5                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CI       In      -         10.604      -         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CO       Out     0.186     10.790      -         
+z_cry_6                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CI       In      -         10.804      -         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CO       Out     0.186     10.990      -         
+z_cry_7                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CI       In      -         11.004      -         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CO       Out     0.186     11.190      -         
+z_cry_8                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CI       In      -         11.204      -         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CO       Out     0.186     11.390      -         
+z_cry_9                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CI       In      -         11.404      -         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CO       Out     0.186     11.590      -         
+z_cry_10                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CI       In      -         11.604      -         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CO       Out     0.186     11.790      -         
+z_cry_11                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CI       In      -         11.804      -         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CO       Out     0.186     11.990      -         
+z_cry_12                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CI       In      -         12.004      -         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CO       Out     0.186     12.190      -         
+z_cry_13                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CI       In      -         12.204      -         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CO       Out     0.186     12.390      -         
+z_cry_14                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CI       In      -         12.404      -         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CO       Out     0.186     12.590      -         
+z_cry_15                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CI       In      -         12.604      -         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CO       Out     0.186     12.790      -         
+z_cry_16                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CI       In      -         12.804      -         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CO       Out     0.186     12.990      -         
+z_cry_17                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CI       In      -         13.004      -         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CO       Out     0.186     13.190      -         
+z_cry_18                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CI       In      -         13.204      -         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CO       Out     0.186     13.390      -         
+z_cry_19                            Net          -        -       0.386     -           1         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      I3       In      -         13.776      -         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      O        Out     0.465     14.242      -         
+z_s_20                              Net          -        -       1.507     -           1         
+NCO1.counter[20]                    SB_DFF       D        In      -         15.748      -         
+==================================================================================================
+Total path delay (propagation time + setup) of 15.903 is 7.169(45.1%) logic and 8.734(54.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      13.518
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.363
+
+    - Propagation time:                      15.728
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.365
+
+    Number of logic level(s):                22
+    Starting point:                          NCO1.counter[3] / Q
+    Ending point:                            NCO1.counter[20] / D
+    The start point is clocked by            TOP|clk [rising] on pin C
+    The end   point is clocked by            TOP|clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+NCO1.counter[3]                     SB_DFF       Q        Out     0.796     0.796       -         
+counter[3]                          Net          -        -       1.599     -           4         
+NCO1.counter_RNI14911_0[3]          SB_LUT4      I0       In      -         2.395       -         
+NCO1.counter_RNI14911_0[3]          SB_LUT4      O        Out     0.661     3.056       -         
+un1_counterlt6                      Net          -        -       1.371     -           1         
+NCO1.counter_RNI10C82_0[6]          SB_LUT4      I3       In      -         4.427       -         
+NCO1.counter_RNI10C82_0[6]          SB_LUT4      O        Out     0.465     4.893       -         
+un1_counterlto11_0_0                Net          -        -       1.371     -           1         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      I0       In      -         6.264       -         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      O        Out     0.661     6.925       -         
+counter_RNIAAML7[6]                 Net          -        -       1.371     -           17        
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      I1       In      -         8.296       -         
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      O        Out     0.589     8.885       -         
+z_axb_3_l_fx                        Net          -        -       0.905     -           2         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     I0       In      -         9.790       -         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     CO       Out     0.380     10.170      -         
+z_cry_3                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CI       In      -         10.184      -         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CO       Out     0.186     10.370      -         
+z_cry_4                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CI       In      -         10.384      -         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CO       Out     0.186     10.570      -         
+z_cry_5                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CI       In      -         10.584      -         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CO       Out     0.186     10.770      -         
+z_cry_6                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CI       In      -         10.784      -         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CO       Out     0.186     10.970      -         
+z_cry_7                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CI       In      -         10.984      -         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CO       Out     0.186     11.170      -         
+z_cry_8                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CI       In      -         11.184      -         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CO       Out     0.186     11.370      -         
+z_cry_9                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CI       In      -         11.384      -         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CO       Out     0.186     11.570      -         
+z_cry_10                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CI       In      -         11.584      -         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CO       Out     0.186     11.770      -         
+z_cry_11                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CI       In      -         11.784      -         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CO       Out     0.186     11.970      -         
+z_cry_12                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CI       In      -         11.984      -         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CO       Out     0.186     12.170      -         
+z_cry_13                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CI       In      -         12.184      -         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CO       Out     0.186     12.370      -         
+z_cry_14                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CI       In      -         12.384      -         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CO       Out     0.186     12.570      -         
+z_cry_15                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CI       In      -         12.584      -         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CO       Out     0.186     12.770      -         
+z_cry_16                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CI       In      -         12.784      -         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CO       Out     0.186     12.970      -         
+z_cry_17                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CI       In      -         12.984      -         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CO       Out     0.186     13.170      -         
+z_cry_18                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CI       In      -         13.184      -         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CO       Out     0.186     13.370      -         
+z_cry_19                            Net          -        -       0.386     -           1         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      I3       In      -         13.756      -         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      O        Out     0.465     14.221      -         
+z_s_20                              Net          -        -       1.507     -           1         
+NCO1.counter[20]                    SB_DFF       D        In      -         15.728      -         
+==================================================================================================
+Total path delay (propagation time + setup) of 15.883 is 7.149(45.0%) logic and 8.734(55.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      13.518
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.363
+
+    - Propagation time:                      15.676
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.313
+
+    Number of logic level(s):                22
+    Starting point:                          NCO1.counter[8] / Q
+    Ending point:                            NCO1.counter[20] / D
+    The start point is clocked by            TOP|clk [rising] on pin C
+    The end   point is clocked by            TOP|clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+NCO1.counter[8]                     SB_DFF       Q        Out     0.796     0.796       -         
+counter[8]                          Net          -        -       1.599     -           5         
+NCO1.counter_RNI5B9F1[7]            SB_LUT4      I1       In      -         2.395       -         
+NCO1.counter_RNI5B9F1[7]            SB_LUT4      O        Out     0.589     2.984       -         
+counter_RNI5B9F1[7]                 Net          -        -       1.371     -           1         
+NCO1.counter_RNIU69T1[11]           SB_LUT4      I2       In      -         4.355       -         
+NCO1.counter_RNIU69T1[11]           SB_LUT4      O        Out     0.558     4.913       -         
+un1_counterlto11_c                  Net          -        -       1.371     -           1         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      I1       In      -         6.284       -         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      O        Out     0.589     6.873       -         
+counter_RNIAAML7[6]                 Net          -        -       1.371     -           17        
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      I1       In      -         8.244       -         
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      O        Out     0.589     8.834       -         
+z_axb_3_l_fx                        Net          -        -       0.905     -           2         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     I0       In      -         9.739       -         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     CO       Out     0.380     10.118      -         
+z_cry_3                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CI       In      -         10.132      -         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CO       Out     0.186     10.318      -         
+z_cry_4                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CI       In      -         10.332      -         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CO       Out     0.186     10.518      -         
+z_cry_5                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CI       In      -         10.532      -         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CO       Out     0.186     10.718      -         
+z_cry_6                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CI       In      -         10.732      -         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CO       Out     0.186     10.918      -         
+z_cry_7                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CI       In      -         10.932      -         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CO       Out     0.186     11.118      -         
+z_cry_8                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CI       In      -         11.132      -         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CO       Out     0.186     11.318      -         
+z_cry_9                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CI       In      -         11.332      -         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CO       Out     0.186     11.518      -         
+z_cry_10                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CI       In      -         11.532      -         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CO       Out     0.186     11.718      -         
+z_cry_11                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CI       In      -         11.732      -         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CO       Out     0.186     11.918      -         
+z_cry_12                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CI       In      -         11.932      -         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CO       Out     0.186     12.118      -         
+z_cry_13                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CI       In      -         12.132      -         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CO       Out     0.186     12.318      -         
+z_cry_14                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CI       In      -         12.332      -         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CO       Out     0.186     12.518      -         
+z_cry_15                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CI       In      -         12.532      -         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CO       Out     0.186     12.718      -         
+z_cry_16                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CI       In      -         12.732      -         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CO       Out     0.186     12.918      -         
+z_cry_17                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CI       In      -         12.932      -         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CO       Out     0.186     13.118      -         
+z_cry_18                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CI       In      -         13.132      -         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CO       Out     0.186     13.318      -         
+z_cry_19                            Net          -        -       0.386     -           1         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      I3       In      -         13.704      -         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      O        Out     0.465     14.169      -         
+z_s_20                              Net          -        -       1.507     -           1         
+NCO1.counter[20]                    SB_DFF       D        In      -         15.676      -         
+==================================================================================================
+Total path delay (propagation time + setup) of 15.831 is 7.097(44.8%) logic and 8.734(55.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      13.518
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.363
+
+    - Propagation time:                      15.655
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.292
+
+    Number of logic level(s):                22
+    Starting point:                          NCO1.counter[4] / Q
+    Ending point:                            NCO1.counter[20] / D
+    The start point is clocked by            TOP|clk [rising] on pin C
+    The end   point is clocked by            TOP|clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+NCO1.counter[4]                     SB_DFF       Q        Out     0.796     0.796       -         
+counter[4]                          Net          -        -       1.599     -           4         
+NCO1.counter_RNI14911_0[3]          SB_LUT4      I1       In      -         2.395       -         
+NCO1.counter_RNI14911_0[3]          SB_LUT4      O        Out     0.589     2.984       -         
+un1_counterlt6                      Net          -        -       1.371     -           1         
+NCO1.counter_RNI10C82_0[6]          SB_LUT4      I3       In      -         4.355       -         
+NCO1.counter_RNI10C82_0[6]          SB_LUT4      O        Out     0.465     4.820       -         
+un1_counterlto11_0_0                Net          -        -       1.371     -           1         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      I0       In      -         6.191       -         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      O        Out     0.661     6.853       -         
+counter_RNIAAML7[6]                 Net          -        -       1.371     -           17        
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      I1       In      -         8.224       -         
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      O        Out     0.589     8.813       -         
+z_axb_3_l_fx                        Net          -        -       0.905     -           2         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     I0       In      -         9.718       -         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     CO       Out     0.380     10.097      -         
+z_cry_3                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CI       In      -         10.111      -         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CO       Out     0.186     10.297      -         
+z_cry_4                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CI       In      -         10.311      -         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CO       Out     0.186     10.497      -         
+z_cry_5                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CI       In      -         10.511      -         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CO       Out     0.186     10.697      -         
+z_cry_6                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CI       In      -         10.711      -         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CO       Out     0.186     10.897      -         
+z_cry_7                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CI       In      -         10.911      -         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CO       Out     0.186     11.097      -         
+z_cry_8                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CI       In      -         11.111      -         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CO       Out     0.186     11.297      -         
+z_cry_9                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CI       In      -         11.311      -         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CO       Out     0.186     11.497      -         
+z_cry_10                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CI       In      -         11.511      -         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CO       Out     0.186     11.697      -         
+z_cry_11                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CI       In      -         11.711      -         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CO       Out     0.186     11.897      -         
+z_cry_12                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CI       In      -         11.911      -         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CO       Out     0.186     12.097      -         
+z_cry_13                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CI       In      -         12.111      -         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CO       Out     0.186     12.297      -         
+z_cry_14                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CI       In      -         12.311      -         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CO       Out     0.186     12.497      -         
+z_cry_15                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CI       In      -         12.511      -         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CO       Out     0.186     12.697      -         
+z_cry_16                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CI       In      -         12.711      -         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CO       Out     0.186     12.897      -         
+z_cry_17                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CI       In      -         12.911      -         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CO       Out     0.186     13.097      -         
+z_cry_18                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CI       In      -         13.111      -         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CO       Out     0.186     13.297      -         
+z_cry_19                            Net          -        -       0.386     -           1         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      I3       In      -         13.683      -         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      O        Out     0.465     14.149      -         
+z_s_20                              Net          -        -       1.507     -           1         
+NCO1.counter[20]                    SB_DFF       D        In      -         15.655      -         
+==================================================================================================
+Total path delay (propagation time + setup) of 15.810 is 7.076(44.8%) logic and 8.734(55.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      13.518
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         13.363
+
+    - Propagation time:                      15.645
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.282
+
+    Number of logic level(s):                22
+    Starting point:                          NCO1.counter[9] / Q
+    Ending point:                            NCO1.counter[20] / D
+    The start point is clocked by            TOP|clk [rising] on pin C
+    The end   point is clocked by            TOP|clk [rising] on pin C
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+NCO1.counter[9]                     SB_DFF       Q        Out     0.796     0.796       -         
+counter[9]                          Net          -        -       1.599     -           5         
+NCO1.counter_RNI5B9F1[7]            SB_LUT4      I2       In      -         2.395       -         
+NCO1.counter_RNI5B9F1[7]            SB_LUT4      O        Out     0.558     2.953       -         
+counter_RNI5B9F1[7]                 Net          -        -       1.371     -           1         
+NCO1.counter_RNIU69T1[11]           SB_LUT4      I2       In      -         4.324       -         
+NCO1.counter_RNIU69T1[11]           SB_LUT4      O        Out     0.558     4.882       -         
+un1_counterlto11_c                  Net          -        -       1.371     -           1         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      I1       In      -         6.253       -         
+NCO1.counter_RNIAAML7[6]            SB_LUT4      O        Out     0.589     6.842       -         
+counter_RNIAAML7[6]                 Net          -        -       1.371     -           17        
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      I1       In      -         8.213       -         
+NCO1.un1_counter_4.z_axb_3_l_fx     SB_LUT4      O        Out     0.589     8.803       -         
+z_axb_3_l_fx                        Net          -        -       0.905     -           2         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     I0       In      -         9.708       -         
+NCO1.un1_counter_4.z_cry_3_c        SB_CARRY     CO       Out     0.380     10.087      -         
+z_cry_3                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CI       In      -         10.101      -         
+NCO1.un1_counter_4.z_cry_4_c        SB_CARRY     CO       Out     0.186     10.287      -         
+z_cry_4                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CI       In      -         10.301      -         
+NCO1.un1_counter_4.z_cry_5_c        SB_CARRY     CO       Out     0.186     10.487      -         
+z_cry_5                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CI       In      -         10.501      -         
+NCO1.un1_counter_4.z_cry_6_c        SB_CARRY     CO       Out     0.186     10.687      -         
+z_cry_6                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CI       In      -         10.701      -         
+NCO1.un1_counter_4.z_cry_7_c        SB_CARRY     CO       Out     0.186     10.887      -         
+z_cry_7                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CI       In      -         10.901      -         
+NCO1.un1_counter_4.z_cry_8_c        SB_CARRY     CO       Out     0.186     11.087      -         
+z_cry_8                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CI       In      -         11.101      -         
+NCO1.un1_counter_4.z_cry_9_c        SB_CARRY     CO       Out     0.186     11.287      -         
+z_cry_9                             Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CI       In      -         11.301      -         
+NCO1.un1_counter_4.z_cry_10_c       SB_CARRY     CO       Out     0.186     11.487      -         
+z_cry_10                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CI       In      -         11.501      -         
+NCO1.un1_counter_4.z_cry_11_c       SB_CARRY     CO       Out     0.186     11.687      -         
+z_cry_11                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CI       In      -         11.701      -         
+NCO1.un1_counter_4.z_cry_12_c       SB_CARRY     CO       Out     0.186     11.887      -         
+z_cry_12                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CI       In      -         11.901      -         
+NCO1.un1_counter_4.z_cry_13_c       SB_CARRY     CO       Out     0.186     12.087      -         
+z_cry_13                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CI       In      -         12.101      -         
+NCO1.un1_counter_4.z_cry_14_c       SB_CARRY     CO       Out     0.186     12.287      -         
+z_cry_14                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CI       In      -         12.301      -         
+NCO1.un1_counter_4.z_cry_15_c       SB_CARRY     CO       Out     0.186     12.487      -         
+z_cry_15                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CI       In      -         12.501      -         
+NCO1.un1_counter_4.z_cry_16_c       SB_CARRY     CO       Out     0.186     12.687      -         
+z_cry_16                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CI       In      -         12.701      -         
+NCO1.un1_counter_4.z_cry_17_c       SB_CARRY     CO       Out     0.186     12.887      -         
+z_cry_17                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CI       In      -         12.901      -         
+NCO1.un1_counter_4.z_cry_18_c       SB_CARRY     CO       Out     0.186     13.087      -         
+z_cry_18                            Net          -        -       0.014     -           2         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CI       In      -         13.101      -         
+NCO1.un1_counter_4.z_cry_19_c       SB_CARRY     CO       Out     0.186     13.287      -         
+z_cry_19                            Net          -        -       0.386     -           1         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      I3       In      -         13.673      -         
+NCO1.un1_counter_4.z_s_20           SB_LUT4      O        Out     0.465     14.138      -         
+z_s_20                              Net          -        -       1.507     -           1         
+NCO1.counter[20]                    SB_DFF       D        In      -         15.645      -         
+==================================================================================================
+Total path delay (propagation time + setup) of 15.800 is 7.066(44.7%) logic and 8.734(55.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 134MB)
+
+---------------------------------------
+Resource Usage Report for TOP 
+
+Mapping to part: ice40lp384qn32
+Cell usage:
+GND             3 uses
+SB_CARRY        20 uses
+SB_DFF          23 uses
+SB_DFFE         1 use
+SB_DFFER        2 uses
+SB_DFFES        2 uses
+VCC             3 uses
+SB_LUT4         56 uses
+
+I/O ports: 16
+I/O primitives: 16
+SB_GB_IO       1 use
+SB_IO          15 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   28 (7%)
+Total load per clock:
+   TOP|clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 56 (14%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 56 = 56 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Dec 22 15:36:24 2023
 
 ###########################################################]

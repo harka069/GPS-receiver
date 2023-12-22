@@ -1,0 +1,126 @@
+set_location IN_MUX_bfv_2_6_0_ 2 6 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_2_7_0_ 2 7 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_2_8_0_ 2 8 0 #ICE_CARRY_IN_MUX
+set_location CONSTANT_ONE_LUT4 3 5 0 #SB_LUT4
+set_location NCO1.counter_RNI37ISD_10_NCO1.NCO_clk_REP_LUT4_0 2 5 3 #SB_LUT4
+set_location NCO1.un1_counter_4.z_s_20 2 8 4 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_9_s 2 7 1 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_9_c 2 7 1 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_8_s 2 7 0 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_8_c 2 7 0 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_7_s 2 6 7 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_7_c 2 6 7 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_6_s 2 6 6 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_6_c 2 6 6 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_5_s 2 6 5 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_5_c 2 6 5 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_4_s 2 6 4 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_4_c 2 6 4 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_3_s 2 6 3 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_3_c 2 6 3 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_2_s 2 6 2 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_2_c 2 6 2 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_1_s 2 6 1 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_1_c 2 6 1 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_19_s 2 8 3 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_19_c 2 8 3 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_18_s 2 8 2 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_18_c 2 8 2 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_17_s 2 8 1 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_17_c 2 8 1 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_16_s 2 8 0 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_16_c 2 8 0 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_15_s 2 7 7 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_15_c 2 7 7 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_14_s 2 7 6 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_14_c 2 7 6 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_13_s 2 7 5 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_13_c 2 7 5 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_12_s 2 7 4 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_12_c 2 7 4 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_11_s 2 7 3 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_11_c 2 7 3 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_10_s 2 7 2 #SB_LUT4
+set_location NCO1.un1_counter_4.z_cry_10_c 2 7 2 #SB_CARRY
+set_location NCO1.un1_counter_4.z_cry_0_c 2 6 0 #SB_CARRY
+set_location NCO1.un1_counter_4.z_axb_6_l_fx 3 6 6 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_4_l_fx 3 7 4 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_3_l_fx 3 6 3 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_19_l_fx 2 8 7 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_18_l_fx 2 8 6 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_17_l_fx 2 8 5 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_14_l_fx 3 6 7 #SB_LUT4
+set_location NCO1.un1_counter_4.z_axb_0 2 6 0 #SB_LUT4
+set_location NCO1.f_correct_RNO[0] 1 6 3 #SB_LUT4
+set_location NCO1.f_correct[0] 1 6 3 #SB_DFF
+set_location NCO1.counter_RNIU69T1[11] 3 6 5 #SB_LUT4
+set_location NCO1.counter_RNIQJCC1[6] 3 5 5 #SB_LUT4
+set_location NCO1.counter_RNIP51O1[17] 3 8 2 #SB_LUT4
+set_location NCO1.counter_RNIP51O1_0[17] 3 8 3 #SB_LUT4
+set_location NCO1.counter_RNIN29B2[10] 3 7 6 #SB_LUT4
+set_location NCO1.counter_RNIML3Q[16] 2 5 2 #SB_LUT4
+set_location NCO1.counter_RNILDOK3[10] 2 5 0 #SB_LUT4
+set_location NCO1.counter_RNIITVN1[14] 3 7 0 #SB_LUT4
+set_location NCO1.counter_RNIITVN1_0[14] 3 7 7 #SB_LUT4
+set_location NCO1.counter_RNIEPVN1[14] 2 5 5 #SB_LUT4
+set_location NCO1.counter_RNIAAML7[6] 3 6 2 #SB_LUT4
+set_location NCO1.counter_RNIA3CC1[2] 2 5 4 #SB_LUT4
+set_location NCO1.counter_RNI6C9F1[7] 3 7 5 #SB_LUT4
+set_location NCO1.counter_RNI5B9F1[7] 3 6 4 #SB_LUT4
+set_location NCO1.counter_RNI37ISD[10] 2 5 1 #SB_LUT4
+set_location NCO1.counter_RNI36M38[6] 3 7 3 #SB_LUT4
+set_location NCO1.counter_RNI14911[3] 3 7 1 #SB_LUT4
+set_location NCO1.counter_RNI14911_0[3] 3 6 0 #SB_LUT4
+set_location NCO1.counter_RNI10C82[6] 3 7 2 #SB_LUT4
+set_location NCO1.counter_RNI10C82_0[6] 3 6 1 #SB_LUT4
+set_location NCO1.counter[9] 2 7 1 #SB_DFF
+set_location NCO1.counter[8] 2 7 0 #SB_DFF
+set_location NCO1.counter[7] 2 6 7 #SB_DFF
+set_location NCO1.counter[6] 2 6 6 #SB_DFF
+set_location NCO1.counter[5] 2 6 5 #SB_DFF
+set_location NCO1.counter[4] 2 6 4 #SB_DFF
+set_location NCO1.counter[3] 2 6 3 #SB_DFF
+set_location NCO1.counter[20] 2 8 4 #SB_DFF
+set_location NCO1.counter[2] 2 6 2 #SB_DFF
+set_location NCO1.counter[19] 2 8 3 #SB_DFF
+set_location NCO1.counter[18] 2 8 2 #SB_DFF
+set_location NCO1.counter[17] 2 8 1 #SB_DFF
+set_location NCO1.counter[16] 2 8 0 #SB_DFF
+set_location NCO1.counter[15] 2 7 7 #SB_DFF
+set_location NCO1.counter[14] 2 7 6 #SB_DFF
+set_location NCO1.counter[13] 2 7 5 #SB_DFF
+set_location NCO1.counter[12] 2 7 4 #SB_DFF
+set_location NCO1.counter[11] 2 7 3 #SB_DFF
+set_location NCO1.counter[10] 2 7 2 #SB_DFF
+set_location NCO1.counter[1] 2 6 1 #SB_DFF
+set_location NCO1.counter[0] 2 6 0 #SB_DFF
+set_location NCO1.VCO1.sin_data_RNO_0 2 5 6 #SB_LUT4
+set_location NCO1.VCO1.sin_data_RNO 2 4 5 #SB_LUT4
+set_location NCO1.VCO1.sin_data 2 4 5 #SB_DFFE
+set_location NCO1.VCO1.U1.q_RNO[3] 1 4 6 #SB_LUT4
+set_location NCO1.VCO1.U1.q_RNO[2] 1 5 2 #SB_LUT4
+set_location NCO1.VCO1.U1.q_RNO[1] 1 5 1 #SB_LUT4
+set_location NCO1.VCO1.U1.q_RNO[0] 1 5 3 #SB_LUT4
+set_location NCO1.VCO1.U1.q[3] 1 4 6 #SB_DFFER
+set_location NCO1.VCO1.U1.q[2] 1 5 2 #SB_DFFER
+set_location NCO1.VCO1.U1.q[1] 1 5 1 #SB_DFFES
+set_location NCO1.VCO1.U1.q[0] 1 5 3 #SB_DFFES
+set_location NCO1.NCO_clk 2 5 3 #SB_DFF
+set_location GND -1 -1 -1 #GND
+set_location BUTTON3_ibuf_RNIK877 1 3 1 #SB_LUT4
+set_io clk 8
+set_io LED[9] 22
+set_io LED[8] 23
+set_io LED[7] 26
+set_io LED[6] 27
+set_io LED[5] 29
+set_io LED[4] 30
+set_io LED[3] 31
+set_io LED[2] 32
+set_io LED[1] 1
+set_io LED[0] 2
+set_io BUTTON3 7
+set_io BUTTON2 6
+set_io BUTTON1 5
+set_io BNC2 20
+set_io BNC1 18

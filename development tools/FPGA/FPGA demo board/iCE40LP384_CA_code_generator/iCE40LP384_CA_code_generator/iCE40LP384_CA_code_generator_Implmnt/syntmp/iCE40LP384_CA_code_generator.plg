@@ -1,17 +1,12 @@
-@P:  Worst Slack : -0.858
-@P:  TOP|clk - Estimated Frequency : 174.7 MHz
-@P:  TOP|clk - Requested Frequency : 205.6 MHz
-@P:  TOP|clk - Estimated Period : 5.723
-@P:  TOP|clk - Requested Period : 4.864
-@P:  TOP|clk - Slack : -0.858
-@P:  nco|un13_clk_internal_inferred_clock - Estimated Frequency : 211.9 MHz
-@P:  nco|un13_clk_internal_inferred_clock - Requested Frequency : 249.3 MHz
-@P:  nco|un13_clk_internal_inferred_clock - Estimated Period : 4.718
-@P:  nco|un13_clk_internal_inferred_clock - Requested Period : 4.011
-@P:  nco|un13_clk_internal_inferred_clock - Slack : -0.708
+@P:  Worst Slack : -2.385
+@P:  TOP|clk - Estimated Frequency : 62.9 MHz
+@P:  TOP|clk - Requested Frequency : 74.0 MHz
+@P:  TOP|clk - Estimated Period : 15.904
+@P:  TOP|clk - Requested Period : 13.518
+@P:  TOP|clk - Slack : -2.385
 @P: TOP Part : ice40lp384qn32
-@P: TOP I/O primitives : 13
+@P: TOP I/O primitives : 16
 @P: TOP I/O Register bits : 0
-@P: TOP Register bits (Non I/O) : 13 (3%)
-@P: TOP Total Luts : 13 (3%)
+@P: TOP Register bits (Non I/O) : 28 (7%)
+@P: TOP Total Luts : 56 (14%)
 @P:  CPU Time : 0h:00m:00s
