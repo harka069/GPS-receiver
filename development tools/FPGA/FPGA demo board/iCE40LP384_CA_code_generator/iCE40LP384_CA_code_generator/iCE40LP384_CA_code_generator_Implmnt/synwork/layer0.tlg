@@ -1,26 +1,28 @@
 Selecting top level module TOP
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/cagen.v":32:7:32:15|Synthesizing module shift_reg in library work.
+@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":1:7:1:14|Synthesizing module spi_core in library work.
 
-	bit_count=32'b00000000000000000000000000000100
-	init_val=4'b0011
-   Generated name = shift_reg_4s_3
-
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":39:7:39:9|Synthesizing module vco in library work.
-
-@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":60:4:60:9|Pruning unused register cos_data. Make sure that there are no unused intermediate registers.
-@N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":2:7:2:9|Synthesizing module nco in library work.
-
-@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":36:8:36:11|Input div on instance VCO1 is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG1273 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":23:11:23:17|An input port (port tx_flag) is the target of an assignment - please check if this is intentional
 @N: CG364 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":1:7:1:9|Synthesizing module TOP in library work.
 
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":14:13:14:15|Input spi_ss on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":14:13:14:15|Input rst on instance spi is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":19:19:19:19|Port-width mismatch for port tx_enable. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":18:17:18:17|Port-width mismatch for port tx_flag. The port definition is 1 bits, but the actual port connection bit width is 32. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":17:22:17:30|Port-width mismatch for port spi_to_fpga. The port definition is 8 bits, but the actual port connection bit width is 6. Adjust either the definition or the instantiation of this port.
+@W: CG360 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":7:11:7:14|Removing wire BNC1, as there is no assignment to it.
+@W: CL156 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":17:22:17:30|*Input LED[6] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":17:22:17:30|*Input LED[8] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
 @W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":6:17:6:19|*Output LED has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL279 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bits 7 to 2 of f_correct[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit f_correct[1] is always 0.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit counter[23] is always 0.
-@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 23 of counter[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 1 of f_correct[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit counter[22] is always 0.
-@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 22 of counter[22:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL189 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Register bit counter[21] is always 0.
-@W: CL260 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":16:4:16:9|Pruning register bit 21 of counter[21:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":41:10:41:12|Input div is unused.
+@W: CL157 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":7:11:7:14|*Output BNC1 has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":2:10:2:12|Input clk is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":3:10:3:16|Input BUTTON1 is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":4:10:4:16|Input BUTTON2 is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":5:10:5:16|Input BUTTON3 is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":8:10:8:13|Input BNC2 is unused.
+@W: CL138 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":25:4:25:9|Removing register 'tx_flag_reg' because it is only assigned 0 or its original value.
+@W: CL169 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":25:4:25:9|Pruning unused register stevec_out[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL305 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":25:4:25:9|Optimizing flip-flop that can only be initialized externally (flip-flop that drives itself)
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":5:10:5:15|Input spi_ss is unused.
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":8:10:8:12|Input rst is unused.
+@W: CL158 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":10:16:10:26|Inout fpga_to_spi is unused
+@N: CL159 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":12:10:12:16|Input tx_flag is unused.

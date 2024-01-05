@@ -6,90 +6,12 @@ Part:			ICE40LP384QN32 (Lattice)
 ########   Utilization report for  Top level view:   TOP   ########
 ===================================================================
 
-SEQUENTIAL ELEMENTS
-Name      Total elements     Utilization     Notes
---------------------------------------------------
-FLOPS     28                 100 %                
-==================================================
-Total SEQUENTIAL ELEMENTS in the block TOP:	28 (21.88 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-LUTS       56                 100 %                
-CARRYS     20                 100 %                
-===================================================
-Total COMBINATIONAL LOGIC in the block TOP:	76 (59.38 % Utilization)
-
-
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     16                 100 %                
+PADS     11                 100 %                
 =================================================
-Total IO PADS in the block TOP:	16 (12.50 % Utilization)
-
----------------------------------------------------------
-########   Utilization report for  cell:   nco   ########
-Instance path:   TOP.nco                                 
-=========================================================
-
-SEQUENTIAL ELEMENTS
-Name      Total elements     Utilization     Notes
---------------------------------------------------
-FLOPS     28                 100 %                
-==================================================
-Total SEQUENTIAL ELEMENTS in the block TOP.nco:	28 (21.88 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name       Total elements     Utilization     Notes
----------------------------------------------------
-LUTS       55                 98.2 %               
-CARRYS     20                 100 %                
-===================================================
-Total COMBINATIONAL LOGIC in the block TOP.nco:	75 (58.59 % Utilization)
-
----------------------------------------------------------
-########   Utilization report for  cell:   vco   ########
-Instance path:   nco.vco                                 
-=========================================================
-
-SEQUENTIAL ELEMENTS
-Name      Total elements     Utilization     Notes
---------------------------------------------------
-FLOPS     5                  17.9 %               
-==================================================
-Total SEQUENTIAL ELEMENTS in the block nco.vco:	5 (3.91 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     6                  10.7 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block nco.vco:	6 (4.69 % Utilization)
-
---------------------------------------------------------------------
-########   Utilization report for  cell:   shift_reg_4s_3   ########
-Instance path:   vco.shift_reg_4s_3                                 
-====================================================================
-
-SEQUENTIAL ELEMENTS
-Name      Total elements     Utilization     Notes
---------------------------------------------------
-FLOPS     4                  14.3 %               
-==================================================
-Total SEQUENTIAL ELEMENTS in the block vco.shift_reg_4s_3:	4 (3.12 % Utilization)
-
-
-COMBINATIONAL LOGIC
-Name     Total elements     Utilization     Notes
--------------------------------------------------
-LUTS     4                  7.14 %               
-=================================================
-Total COMBINATIONAL LOGIC in the block vco.shift_reg_4s_3:	4 (3.12 % Utilization)
+Total IO PADS in the block TOP:	11 (84.62 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

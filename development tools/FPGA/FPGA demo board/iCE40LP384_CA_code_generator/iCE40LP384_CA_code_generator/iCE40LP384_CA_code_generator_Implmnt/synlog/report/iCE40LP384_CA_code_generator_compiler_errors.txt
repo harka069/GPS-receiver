@@ -1,9 +1,3 @@
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":63:16:63:22|Assignment target out_sin must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":64:16:64:22|Assignment target out_cos must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":67:16:67:22|Assignment target out_sin must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":68:16:68:22|Assignment target out_cos must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":71:16:71:22|Assignment target out_sin must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":72:16:72:22|Assignment target out_cos must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":75:16:75:22|Assignment target out_sin must be of type reg or genvar
-@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/nco.v":76:16:76:22|Assignment target out_cos must be of type reg or genvar
+@E: CG357 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":17:22:17:25|Illegal reference to array data
+@E: CS187 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":59:0:59:8|Expecting endmodule
 

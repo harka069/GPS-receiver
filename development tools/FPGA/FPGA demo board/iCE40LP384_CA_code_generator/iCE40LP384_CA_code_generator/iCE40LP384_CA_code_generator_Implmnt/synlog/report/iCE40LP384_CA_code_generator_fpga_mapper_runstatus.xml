@@ -13,7 +13,7 @@ The file contains the job information from mapper to be displayed as part of the
 </job_status>
 <job_info>
 <info name="Notes">
-<data>15</data>
+<data>34</data>
 <report_link name="more">
 <data>/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/synlog/report/iCE40LP384_CA_code_generator_fpga_mapper_notes.txt</data>
 </report_link>
@@ -37,10 +37,10 @@ The file contains the job information from mapper to be displayed as part of the
 <data>0h:00m:00s</data>
 </info>
 <info name="Peak Memory">
-<data>134MB</data>
+<data>133MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1703255784</data>
+<data type="timestamp">1704465083</data>
 </info>
 </job_info>
 </job_run_status>

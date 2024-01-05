@@ -4,7 +4,9 @@
 
 add_file -verilog -lib work "../cagen.v" 
 add_file -verilog -lib work "../nco.v" 
+add_file -verilog -lib work "../misc.v" 
 add_file -verilog -lib work "../top.v" 
+add_file -verilog -lib work "../spi_core.v" 
 #implementation: "iCE40LP384_CA_code_generator_Implmnt"
 impl -add iCE40LP384_CA_code_generator_Implmnt -type fpga
 
