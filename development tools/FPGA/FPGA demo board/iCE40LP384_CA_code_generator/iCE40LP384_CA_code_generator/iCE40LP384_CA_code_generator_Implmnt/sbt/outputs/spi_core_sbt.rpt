@@ -1,0 +1,102 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:24:17
+
+* File Generated:     Jan 12 2024 10:01:16
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40LP384
+    Package:       QN32
+
+Design statistics:
+------------------
+    FFs:                  22
+    LUTs:                 38
+    RAMs:                 0
+    IOBs:                 12
+    GBs:                  1
+    PLLs:                 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 38/384
+        Combinational Logic Cells: 16       out of   384       4.16667%
+        Sequential Logic Cells:    22       out of   384       5.72917%
+        Logic Tiles:               16       out of   48        33.3333%
+    Registers: 
+        Logic Registers:           22       out of   384       5.72917%
+        IO Registers:              0        out of   280       0
+    Block RAMs:                    0        out of   0         -nan%
+    Pins:
+        Input Pins:                3        out of   21        14.2857%
+        Output Pins:               9        out of   21        42.8571%
+        InOut Pins:                0        out of   21        0%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          0        out of   0       
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 5        out of   6         83.3333%
+    Bank 1: 1        out of   5         20%
+    Bank 0: 6        out of   6         100%
+    Bank 2: 0        out of   4         0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name     
+    ----------  ---------  -----------  -------  -------  -----------    -----------     
+    5           Input      SB_LVCMOS    No       3        Simple Input   mosi            
+    6           Input      SB_LVCMOS    No       3        Simple Input   spi_clk         
+    23          Input      SB_LVCMOS    No       1        Simple Input   tx_enable       
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name     
+    ----------  ---------  -----------  -------  -------  -----------    -----------     
+    1           Output     SB_LVCMOS    No       3        Simple Output  spi_to_fpga[7]  
+    2           Output     SB_LVCMOS    No       3        Simple Output  spi_to_fpga[5]  
+    7           Output     SB_LVCMOS    No       3        Simple Output  miso            
+    26          Output     SB_LVCMOS    No       0        Simple Output  spi_to_fpga[6]  
+    27          Output     SB_LVCMOS    No       0        Simple Output  spi_to_fpga[0]  
+    29          Output     SB_LVCMOS    No       0        Simple Output  spi_to_fpga[1]  
+    30          Output     SB_LVCMOS    No       0        Simple Output  spi_to_fpga[2]  
+    31          Output     SB_LVCMOS    No       0        Simple Output  spi_to_fpga[4]  
+    32          Output     SB_LVCMOS    No       0        Simple Output  spi_to_fpga[3]  
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name  
+    -------------  -------  ---------  ------  -----------  
+    4              3        IO         22      spi_clk_c_g  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 1 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile      239 out of   7992      2.99049%
+                          Span 4       41 out of   2320      1.76724%
+                         Span 12        5 out of    528      0.94697%
+                  Global network        1 out of      8      12.5%
+      Vertical Inter-LUT Connect        7 out of    336      2.08333%
+

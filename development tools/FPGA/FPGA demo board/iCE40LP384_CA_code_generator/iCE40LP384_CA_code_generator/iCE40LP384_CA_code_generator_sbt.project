@@ -4,7 +4,7 @@ Version=Lattice Semiconductor Corporation iCEcube - Release: 2020.12.27943 - Bui
 ProjectName=iCE40LP384_CA_code_generator
 Vendor=SiliconBlue
 Synthesis=synplify
-ProjectVFiles=../cagen.v=work,../nco.v=work,../misc.v=work,../top.v=work,../spi_core.v=work
+ProjectVFiles=../cagen.v=work,../misc.v=work,../nco.v=work,../spi_core.v=work,../demod.v,../top.v=work
 ProjectCFiles=
 CurImplementation=iCE40LP384_CA_code_generator_Implmnt
 Implementations=iCE40LP384_CA_code_generator_Implmnt
@@ -20,7 +20,7 @@ NetlistFile=iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.ed
 AdditionalEDIFFile=
 IPEDIFFile=
 DesignLib=iCE40LP384_CA_code_generator_Implmnt/sbt/netlist/oadb-TOP
-DesignView=_ep
+DesignView=_rt
 DesignCell=TOP
 SynthesisSDCFile=iCE40LP384_CA_code_generator_Implmnt/iCE40LP384_CA_code_generator.scf
 UserPinConstraintFile=

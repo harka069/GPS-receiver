@@ -1,3 +1,2 @@
-@E: CG357 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":17:22:17:25|Illegal reference to array data
-@E: CS187 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/top.v":59:0:59:8|Expecting endmodule
+@E: CG426 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/spi_core.v":28:16:28:19|Assignment target miso must be of type reg or genvar
 

@@ -1,0 +1,86 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:24:17
+
+* File Generated:     Jan 12 2024 09:59:43
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40LP384
+    Package:       QN32
+
+Design statistics:
+------------------
+    FFs:                  0
+    LUTs:                 1
+    RAMs:                 0
+    IOBs:                 3
+    GBs:                  0
+    PLLs:                 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 1/384
+        Combinational Logic Cells: 1        out of   384       0.260417%
+        Sequential Logic Cells:    0        out of   384       0%
+        Logic Tiles:               1        out of   48        2.08333%
+    Registers: 
+        Logic Registers:           0        out of   384       0%
+        IO Registers:              0        out of   280       0
+    Block RAMs:                    0        out of   0         -nan%
+    Pins:
+        Input Pins:                2        out of   21        9.52381%
+        Output Pins:               1        out of   21        4.7619%
+        InOut Pins:                0        out of   21        0%
+    Global Buffers:                0        out of   8         0%
+    PLLs:                          0        out of   0       
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 2        out of   6         33.3333%
+    Bank 1: 0        out of   5         0%
+    Bank 0: 1        out of   6         16.6667%
+    Bank 2: 0        out of   4         0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    1           Input      SB_LVCMOS    No       3        Simple Input   f1     
+    31          Input      SB_LVCMOS    No       0        Simple Input   f2     
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    7           Output     SB_LVCMOS    No       3        Simple Output  f_out  
+
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 1 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile        9 out of   7992      0.112613%
+                          Span 4        3 out of   2320      0.12931%
+      Vertical Inter-LUT Connect        0 out of    336      0%
+

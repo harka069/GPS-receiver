@@ -9,6 +9,7 @@ module nco #(parameter cnt_val=125000, cnt_val_half=62500, add_div=10400)(
         input phase,
         output [3:0] LED
         //output reg NCO_clk
+        //manjka implementacija f_correct - korekcije ure
 
     );
     reg NCO_clk = 'd0;

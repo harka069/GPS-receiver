@@ -9,25 +9,25 @@ Part:			ICE40LP384QN32 (Lattice)
 SEQUENTIAL ELEMENTS
 Name      Total elements     Utilization     Notes
 --------------------------------------------------
-FLOPS     21                 100 %                
+FLOPS     22                 100 %                
 ==================================================
-Total SEQUENTIAL ELEMENTS in the block spi_core:	21 (26.25 % Utilization)
+Total SEQUENTIAL ELEMENTS in the block spi_core:	22 (37.93 % Utilization)
 
 
 COMBINATIONAL LOGIC
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-LUTS     21                 100 %                
+LUTS     22                 100 %                
 =================================================
-Total COMBINATIONAL LOGIC in the block spi_core:	21 (26.25 % Utilization)
+Total COMBINATIONAL LOGIC in the block spi_core:	22 (37.93 % Utilization)
 
 
 IO PADS
 Name     Total elements     Utilization     Notes
 -------------------------------------------------
-PADS     36                 100 %                
+PADS     12                 100 %                
 =================================================
-Total IO PADS in the block spi_core:	36 (45.00 % Utilization)
+Total IO PADS in the block spi_core:	12 (20.69 % Utilization)
 
 
 ##### END OF AREA REPORT #####]

@@ -1,0 +1,90 @@
+* ******************************************************************************
+
+* iCEcube Packer
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:24:17
+
+* File Generated:     Jan 12 2024 14:56:59
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Command Line: /home/kristof/lscc/iCEcube2.2020.12/sbt_backend/bin/linux/opt/packer  /home/kristof/lscc/iCEcube2.2020.12/sbt_backend/devices/ICE40P03.dev  /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/sbt/netlist/oadb-TOP  --package  QN32  --outdir  /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/sbt/outputs/packer  --translator  /home/kristof/lscc/iCEcube2.2020.12/sbt_backend/bin/sdc_translator.tcl  --src_sdc_file  /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/sbt/outputs/placer/TOP_pl.sdc  --dst_sdc_file  /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/sbt/outputs/packer/TOP_pk.sdc  --devicename  iCE40LP384  
+
+***** Device Info *****
+Chip: iCE40LP384
+Package: QN32
+Size: 6 X 8
+
+***** Design Utilization Info *****
+Design: TOP
+Used Logic Cell: 0/384
+Used Logic Tile: 0/48
+Used IO Cell:    11/56
+Used Bram Cell For iCE40: 0/0
+Used PLL For iCE40: 0/0
+Ram Cascading Used: 0
+Lut Cascading Used: 0
+
+***** Clock Info *****
+
+***** Placement Info *****
+Logic cell utilization per tile
+    . . . . + . . . 
+   ----------------
+ 9|                 
+ 8|   0 0 0 0 0 0   
+ 7|   0 0 0 0 0 0   
+ 6|   0 0 0 0 0 0   
+ 5|   0 0 0 0 0 0   
+ 4|   0 0 0 0 0 0   
+ 3|   0 0 0 0 0 0   
+ 2|   0 0 0 0 0 0   
+ 1|   0 0 0 0 0 0   
+ 0|                 
+
+Maximum number of Logic cells per logic tile: 0
+Average number of Logic cells per logic tile: -nan
+
+***** Input Pin Density Info *****
+Number of input nets per logic tile
+     .  .  .  .  +  .  .  . 
+   ------------------------
+ 9|                         
+ 8|     0  0  0  0  0  0    
+ 7|     0  0  0  0  0  0    
+ 6|     0  0  0  0  0  0    
+ 5|     0  0  0  0  0  0    
+ 4|     0  0  0  0  0  0    
+ 3|     0  0  0  0  0  0    
+ 2|     0  0  0  0  0  0    
+ 1|     0  0  0  0  0  0    
+ 0|                         
+
+Maximum number of input nets per logic tile: 0
+Average number of input nets per logic tile: -nan
+
+Number of input pins per logic tile
+     .  .  .  .  +  .  .  . 
+   ------------------------
+ 9|                         
+ 8|     0  0  0  0  0  0    
+ 7|     0  0  0  0  0  0    
+ 6|     0  0  0  0  0  0    
+ 5|     0  0  0  0  0  0    
+ 4|     0  0  0  0  0  0    
+ 3|     0  0  0  0  0  0    
+ 2|     0  0  0  0  0  0    
+ 1|     0  0  0  0  0  0    
+ 0|                         
+
+Maximum number of input pins per logic tile: 0
+Average number of input pins per logic tile: -nan
+
+***** Run Time Info *****
+Run Time:  0

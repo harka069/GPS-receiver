@@ -1,0 +1,12 @@
+set_location GND -1 -1 -1 #GND
+set_io LED[9] 22
+set_io LED[8] 23
+set_io LED[7] 26
+set_io LED[6] 27
+set_io LED[5] 29
+set_io LED[4] 30
+set_io LED[3] 31
+set_io LED[2] 32
+set_io LED[1] 1
+set_io LED[0] 2
+set_io BNC1 18

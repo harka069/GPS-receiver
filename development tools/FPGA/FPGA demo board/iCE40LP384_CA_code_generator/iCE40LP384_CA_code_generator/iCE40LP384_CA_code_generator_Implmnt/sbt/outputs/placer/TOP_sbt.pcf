@@ -1,0 +1,12 @@
+set_io BNC1_obuft 7 4 0 # ICE_IO
+set_location GND -1 -1 -1 # GND
+set_io LED_obuf[6] 5 9 0 # ICE_IO
+set_io LED_obuft[0] 0 7 1 # ICE_IO
+set_io LED_obuft[1] 0 7 0 # ICE_IO
+set_io LED_obuft[2] 2 9 1 # ICE_IO
+set_io LED_obuft[3] 2 9 0 # ICE_IO
+set_io LED_obuft[4] 3 9 1 # ICE_IO
+set_io LED_obuft[5] 4 9 0 # ICE_IO
+set_io LED_obuft[7] 6 9 0 # ICE_IO
+set_io LED_obuft[8] 7 6 1 # ICE_IO
+set_io LED_obuft[9] 7 6 0 # ICE_IO

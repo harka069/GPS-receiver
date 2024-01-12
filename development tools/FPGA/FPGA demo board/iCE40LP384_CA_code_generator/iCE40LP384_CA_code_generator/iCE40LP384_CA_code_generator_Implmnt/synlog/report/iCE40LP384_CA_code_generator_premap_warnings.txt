@@ -1,8 +1,2 @@
-@W: FX469 :|Net un2[7] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[6] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[5] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[4] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[3] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[2] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[1] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
-@W: FX469 :|Net un2[0] is undriven; adding disabled tristate to drive this net. To avoid the addition of a tristate, add a driver to the net.
+@W: MO129 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/misc.v":46:4:46:9|Sequential instance demod.sample_counter_cos.sum_ready is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/misc.v":46:4:46:9|Sequential instance demod.sample_counter_sin.sum_ready is reduced to a combinational gate by constant propagation.

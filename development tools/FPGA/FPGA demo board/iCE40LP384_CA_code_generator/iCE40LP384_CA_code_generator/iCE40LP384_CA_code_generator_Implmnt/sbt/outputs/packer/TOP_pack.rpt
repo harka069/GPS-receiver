@@ -1,0 +1,77 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2020.12.27943
+
+* Build Date:         Dec 10 2020 17:24:17
+
+* File Generated:     Jan 12 2024 14:56:59
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40LP384
+    Package:       QN32
+
+Design statistics:
+------------------
+    FFs:                  0
+    LUTs:                 0
+    RAMs:                 0
+    IOBs:                 11
+    GBs:                  0
+    PLLs:                 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 0/384
+        Combinational Logic Cells: 0        out of   384       0%
+        Sequential Logic Cells:    0        out of   384       0%
+        Logic Tiles:               0        out of   48        0%
+    Registers: 
+        Logic Registers:           0        out of   384       0%
+        IO Registers:              0        out of   280       0
+    Block RAMs:                    0        out of   0         -nan%
+    Pins:
+        Input Pins:                0        out of   21        0%
+        Output Pins:               11       out of   21        52.381%
+        InOut Pins:                0        out of   21        0%
+    Global Buffers:                0        out of   8         0%
+    PLLs:                          0        out of   0       
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 2        out of   6         33.3333%
+    Bank 1: 3        out of   5         60%
+    Bank 0: 6        out of   6         100%
+    Bank 2: 0        out of   4         0%
+
+Detailed I/O Info:
+------------------
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    1           Output     SB_LVCMOS    No       3        Output Tristatable by Enable  LED[1]  
+    2           Output     SB_LVCMOS    No       3        Output Tristatable by Enable  LED[0]  
+    18          Output     SB_LVCMOS    No       1        Output Tristatable by Enable  BNC1    
+    22          Output     SB_LVCMOS    No       1        Output Tristatable by Enable  LED[9]  
+    23          Output     SB_LVCMOS    No       1        Output Tristatable by Enable  LED[8]  
+    26          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[7]  
+    27          Output     SB_LVCMOS    No       0        Simple Output                 LED[6]  
+    29          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[5]  
+    30          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[4]  
+    31          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[3]  
+    32          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  LED[2]  
+

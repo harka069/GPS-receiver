@@ -1,15 +1,16 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09L+ice40
 #--  Project file /home/kristof/FAKS/2L/Satelitske komunikacije/GPS-reciever/development tools/FPGA/FPGA demo board/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator/iCE40LP384_CA_code_generator_Implmnt/run_options.txt
-#--  Written on Fri Jan  5 15:31:21 2024
+#--  Written on Fri Jan 12 14:56:43 2024
 
 
 #project files
 add_file -verilog "../cagen.v"
-add_file -verilog "../nco.v"
 add_file -verilog "../misc.v"
-add_file -verilog "../top.v"
+add_file -verilog "../nco.v"
 add_file -verilog "../spi_core.v"
+add_file -verilog "../demod.v"
+add_file -verilog "../top.v"
 
 
 
